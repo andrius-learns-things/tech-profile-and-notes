@@ -14,20 +14,20 @@ Knowledge levels notation, used in this page:
 
 - Frontend development
   - Styling
-    - `**` HTML
-    - `**` CSS
-    - `**` SASS
-    - `**` Bootstrap
+    - HTML `**`
+    - CSS `**`
+    - SASS `**`
+    - Bootstrap `**`
   - Application framework
-    - `***` Javascript (ES6)
-    - `**` Typescript
-    - `***` React
-    - `***` Flux
-    - `**` Redux
-    - `**` Vue
-    - `**` Vuex
-    - `*` Angular
-    - `*` RxJS
+    - Javascript (ES6) `***`
+    - Typescript `**`
+    - React `***`
+    - Flux `***`
+    - Redux `**`
+    - Vue `**`
+    - Vuex `**`
+    - Angular `*`
+    - RxJS `*`
 - Backend development
 - Database development - RDMS
 - Database development - NoSql
@@ -44,7 +44,7 @@ Knowledge levels notation, used in this page:
 
 ### Styling
 
-#### `*` HTML
+#### HTML `*`
 
 Some task.
 
