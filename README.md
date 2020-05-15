@@ -53,6 +53,16 @@ DjangoORM in Python `**`
 
 ### Database development - NoSql
 
+### Basic development stuff
+
+**Version control** `***`
+
+Notes at `cheatsheets/git.md`
+
+**Other VCS** `**`
+
+Worked with several, now irrelevant.
+
 ### DevOps
 
 ### Project management
