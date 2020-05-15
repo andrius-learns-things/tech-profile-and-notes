@@ -1,13 +1,13 @@
 # Andrius B. technical profile
 
-I am Andrius - software developer based in Vilnius, Lithuania, working in softare development since 2005.
+I am Andrius - software developer based in Vilnius, Lithuania, working in software development since 2005.
 
 This repo is my technical profile - things I have learned and things I still need to learn. It also contains my technical notes in various form: bookmarks, cheetsheets, proof of concepts, etc.
 
 Knowledge levels notation, used in this page:
 
 - `***` I know it well, no additional studying would be needed (studied in detail / used in real projects recently)
-- `**_` Some studying/refreshing would be needed (studied it / used in real projects a while ago / have proof-of-concept)
+- `**_` Some studying/refreshing would be needed (studied it / used in real projects a while ago / have some proof-of-concepts, etc)
 - `*__` Studying would be needed (I know "why" and "when" it should be used, but not much about "how")
 
 ## Summary
@@ -16,8 +16,9 @@ Knowledge levels notation, used in this page:
   - Styling
     - `**_` HTML
     - `**_` CSS
+    - `**_` SASS
     - `**_` Bootstrap
-  - Application logic
+  - Application framework
     - `***` Javascript (ES6)
     - `**_` Typescript
     - `***` React
@@ -25,45 +26,40 @@ Knowledge levels notation, used in this page:
     - `**_` Redux
     - `**_` Vue
     - `**_` Vuex
-- `***` Backend development
-- `**` Database development - RDMS
-- `**` Database development - NoSql
+    - `*__` Angular
+    - `*__` RxJS
+- Backend development
+- Database development - RDMS
+- Database development - NoSql
 - DevOps
+  - Docker
+  - Kubernetes
+  - CI/CD
+    - GitLab CI
+    - Travis CI
+  -
 - Project management
 
-## Detailed view
+## Frontend development
 
-### Frontend development - styling
+### Styling
 
-### Frontend development - application logic
+#### `__*` HTML
 
-### Backend development
+**Some task**
 
-### Database development - RDMS
+Some notes...
 
-**Setting Indexes**
+## General development
 
-`Knowledge level: **`
+### GIT
 
-**Using ORM**
+GIT notes at `cheatsheets/git.md`.
 
-SQL Alchemy in Python `**`
-DjangoORM in Python `**`
+Worked with several other VCS, now irrelevant.
 
-### Database development - NoSql
+## DevOps
 
-### Basic development stuff
-
-**Version control (GIT)** !(/img/lvl_3.png) `***`
-
-Notes at `cheatsheets/git.md`
-
-**Other VCS** `**`
-
-Worked with several, now irrelevant.
-
-### DevOps
-
-### Project management
+## Project management
 
 ..
