@@ -15,28 +15,36 @@ Knowledge levels notation, used in this page:
 - Frontend development
   - Styling
     - HTML `**`
-    - CSS `**`
-    - SASS `**`
+    - CSS/SASS `**`
     - Bootstrap `**`
-  - Application framework
+  - Language
     - Javascript (ES6) `***`
     - Typescript `**`
-    - React `***`
-    - Flux `***`
-    - Redux `**`
-    - Vue `**`
-    - Vuex `**`
+  - Application framework
+    - React & Flux/Redux `***`
+    - Vue & Vuex `**`
     - Angular `*`
+  - Libraries
+    - jQuery `**`
     - RxJS `*`
+  - Tools
+    - Webpack `**`
+    - ESLint `**`
+    - Bower & Grunt/Gulp `**`
+    - NPM `**`
+    - Yarn `-` _TODO P3_
 - Backend development
 - Database development - RDMS
 - Database development - NoSql
+- Database development - NoSql
 - DevOps
-  - Docker
-  - Kubernetes
+  - Docker & docker-compose `**`
+  - Kubernetes `**`
+  - Bash `*`
   - CI/CD
-    - GitLab CI
-    - Travis CI
+    - GitLab CI `***`
+    - Jenkins `**`
+    - Travis CI `*`
   -
 - Project management
 
