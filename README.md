@@ -23,21 +23,25 @@ Notation, used in this page:
     - Typescript `**`
   - Application framework
     - React & Flux/Redux `***`
-    - Vue & Vuex `**`
+    - Vue & Vuex `**` `p1`
     - Angular `*`
   - Libraries
     - jQuery `**`
-    - RxJS `*`
+    - RxJS `*` `p2`
   - Tools
     - Webpack `**`
     - ESLint `**`
     - Bower & Grunt/Gulp `**`
     - NPM `**`
-    - Yarn `*` `p3`
+    - Yarn `*` `p2`
 - Backend development
 - Database development - RDMS
 - Database development - NoSql
-- Database development - NoSql
+- Other development:
+  - Selenium tests
+    - Robot framework `***`
+  - Version control
+    - GIT `***`
 - DevOps
   - Docker & docker-compose `**`
   - Kubernetes `**`
@@ -46,6 +50,7 @@ Notation, used in this page:
     - GitLab CI `***`
     - Jenkins `**`
     - Travis CI `*`
+    - Best practices `***`
   -
 - Project management
 
@@ -53,7 +58,7 @@ Notation, used in this page:
 
 ### Styling
 
-#### HTML `*`
+**HTML** `*`
 
 Some task.
 
