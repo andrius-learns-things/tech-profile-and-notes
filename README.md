@@ -32,7 +32,7 @@ Knowledge levels notation, used in this page:
     - ESLint `**`
     - Bower & Grunt/Gulp `**`
     - NPM `**`
-    - Yarn `-` _TODO P3_
+    - Yarn `*` _todo-p3_
 - Backend development
 - Database development - RDMS
 - Database development - NoSql
