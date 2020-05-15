@@ -9,7 +9,7 @@ Notation, used in this page:
 - `***` I know it well, no additional studying would be needed (studied in detail / used in real projects recently)
 - `**` Some studying/refreshing would be needed (studied it / used in real projects a while ago / have some proof-of-concepts, etc)
 - `*` Studying would be needed (I know "why" and "when" it should be used, but not much about "how")
-- _td-pN_ TODO to stydy more with priority N
+- `pN` TODO to study more with priority N
 
 ## Summary
 
@@ -33,7 +33,7 @@ Notation, used in this page:
     - ESLint `**`
     - Bower & Grunt/Gulp `**`
     - NPM `**`
-    - Yarn `*` _td-p3_
+    - Yarn `*` `p3`
 - Backend development
 - Database development - RDMS
 - Database development - NoSql
