@@ -4,37 +4,35 @@ I am a software developer based in Vilnius, Lithuania. I am working in software 
 
 ## Technical profile
 
-| Level | Technology                                    | Notes                                 |
-| :---- | :-------------------------------------------- | :------------------------------------ |
-|       | **FRONTEND DEVELOPMENT**                      |                                       |
-|       | **Layout and styling**                        |                                       |
-| `**`  | HTML+CSS/SASS                                 |                                       |
-| `**`  | Bootstrap                                     |                                       |
-|       | **Languages**                                 |                                       |
-| `***` | Javascript (ES6)                              |                                       |
-| `**`  | Typescript                                    |                                       |
-|       | **Application frameworks**                    |                                       |
-| `***` | React+Flux/Redux                              |                                       |
-| `**`  | Vue+Vuex                                      | `P1`                                  |
-|       | **Libraries**                                 |                                       |
-| `**`  | jQuery                                        |                                       |
-| `*`   | RxJS                                          | `P2`                                  |
-|       | **Tools**                                     |                                       |
-| `**`  | Webpack                                       |                                       |
-| `**`  | ESLint                                        |                                       |
-| `**`  | Bower+Grunt/Gulp                              |                                       |
-| `**`  | NPM                                           |                                       |
-| `*`   | Yarn                                          | `P2`                                  |
-|       | **BACKEND DEVELOPMENT (PYTHON STACK)**        |                                       |
-|       | ...                                           |                                       |
-|       | **BACKEND DEVELOPMENT (PYTHON DJANGO STACK)** |                                       |
-|       | ...                                           |                                       |
-|       | **BACKEND DEVELOPMENT (.NET STACK)**          |                                       |
-|       | ...                                           |                                       |
-|       | **DEVELOPMENT - OTHER**                       |                                       |
-|       | **Tools**                                     |                                       |
-| `**`  | Git                                           | [cheatsheet](notes/git/cheatsheet.md) |
-|       | ...                                           |                                       |
+| Category                  | Level | Technology       | Notes                                 |
+| :------------------------ | :---- | :--------------- | ------------------------------------- |
+| **FRONTEND DEVELOPMENT**  |       |                  |                                       |
+| Styling                   | `**`  | HTML+CSS/SASS    |                                       |
+|                           | `**`  | Bootstrap        |                                       |
+| Languages                 | `***` | Javascript (ES6) |                                       |
+|                           | `**`  | Typescript       |                                       |
+| App frameworks            | `***` | React+Flux/Redux |                                       |
+|                           | `**`  | Vue+Vuex         | `P1`                                  |
+| Libraries                 | `**`  | jQuery           |                                       |
+|                           | `*`   | RxJS             | `P2`                                  |
+| Tools                     | `**`  | Webpack          |                                       |
+|                           | `**`  | ESLint           |                                       |
+|                           | `**`  | Bower+Grunt/Gulp |                                       |
+|                           | `**`  | NPM              |                                       |
+|                           | `*`   | Yarn             | `P2`                                  |
+| **BACKEND DEVELOPMENT**   |       |                  |                                       |
+| **(PYTHON STACK)**        |       |                  |                                       |
+|                           |       | ...              |                                       |
+| **BACKEND DEVELOPMENT**   |       |                  |                                       |
+| **(PYTHON DJANGO STACK)** |       |                  |                                       |
+|                           |       | ...              |                                       |
+| **BACKEND DEVELOPMENT**   |       |                  |                                       |
+| **(.NET STACK)**          |       |                  |                                       |
+|                           |       | ...              |                                       |
+| **DEVELOPMENT (GENERAL)** |       |                  |                                       |
+| **Tools**                 |       |                  |                                       |
+|                           | `**`  | Git              | [cheatsheet](notes/git/cheatsheet.md) |
+|                           |       | ...              |                                       |
 
 Notation:
 
