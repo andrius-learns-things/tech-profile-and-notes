@@ -14,11 +14,11 @@ Notation used in this page:
 ## Summary
 
 - Frontend development
-  - Styling: HTML `**`, CSS/SASS `**`, Bootstrap `**`
-  - Languages: Javascript (ES6) `***`, Typescript `**`
-  - Application frameworks: React & Flux/Redux `***`, Vue & Vuex `**` `p1`
-  - Libraries: jQuery `**`, RxJS `*` `p2`
-  - Tools: Webpack `**`, ESLint `**`, Bower & Grunt/Gulp `**`, NPM `**`, Yarn `*` `p2`
+  - Styling: HTML `**` CSS/SASS `**` Bootstrap `**`
+  - Languages: Javascript (ES6) `***` Typescript `**`
+  - Application frameworks: React & Flux/Redux `***` Vue & Vuex `**` `p1`
+  - Libraries: jQuery `**` RxJS `*` `p2`
+  - Tools: Webpack `**` ESLint `**` Bower & Grunt/Gulp `**` NPM `**` Yarn `*` `p2`
 - Backend development
 - Database development - RDMS
 - Database development - NoSql
@@ -31,7 +31,7 @@ Notation used in this page:
   - Docker & docker-compose `**`
   - Kubernetes `**`
   - Bash `*`
-  - CI/CD: GitLab CI `***`, Jenkins `**`, Travis CI `*`, Best practices `***`
+  - CI/CD: GitLab CI `***` Jenkins `**` Travis CI `*` Best practices `***`
 - Project management
 
 ## Frontend development
