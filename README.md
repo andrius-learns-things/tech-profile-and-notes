@@ -1,10 +1,15 @@
 # Andrius B. technical profile (WIP)
 
+## Overview
+
 I am Andrius - software developer based in Vilnius, Lithuania, working in software development since 2005.
 
-This repo is my technical profile - things I have learned and things I still need to learn. It also contains my technical notes in various form: bookmarks, cheetsheets, proof of concepts, etc.
+This repo contains:
 
-Notation used in this page:
+- My technical profile
+- Notes - bookmarks, cheatsheets, proof-of-concepts, etc
+
+## Notation
 
 - `***` I know it well, no additional studying would be needed (studied in detail / used in real projects recently)
 - `**` Some studying/refreshing would be needed (studied it / used in real projects a while ago / have some proof-of-concepts, etc)
