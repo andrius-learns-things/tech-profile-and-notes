@@ -1,67 +1,60 @@
 # Andrius B. technical profile (WIP)
 
-## Overview
-
-I am Andrius - software developer based in Vilnius, Lithuania, working in software development since 2005.
-
-This repo contains:
-
-- My technical profile
-- Notes - bookmarks, cheatsheets, proof-of-concepts, etc
-
-## Notation
-
-- `***` I know it well, no additional studying would be needed (studied in detail / used in real projects recently)
-- `**` Some studying/refreshing would be needed (studied it / used in real projects a while ago / have some proof-of-concepts, etc)
-- `*` Studying would be needed (I know "why" and "when" it should be used, but not much about "how")
-- `pN` TODO to study more with priority N
+I am a software developer based in Vilnius, Lithuania. I am working in software development since 2005.
 
 ## Summary
 
 - Frontend development
-  - Layout and styling: HTML `**` CSS/SASS `**` Bootstrap `**`
-  - Languages: Javascript (ES6) `***` Typescript `**`
-  - Application frameworks: React & Flux/Redux `***` Vue & Vuex `**` `p1`
-  - Libraries: jQuery `**` RxJS `*` `p2`
-  - Tools: Webpack `**` ESLint `**` Bower & Grunt/Gulp `**` NPM `**` Yarn `*` `p2`
+  - Layout and styling: HTML, CSS, SASS, Bootstrap
+  - Languages: Javascript (ES6), Typescript
+  - Application frameworks: React & Flux/Redux, Vue & Vuex
+  - Libraries: jQuery, RxJS
+  - Tools: Webpack, ESLint, Bower & Grunt/Gulp, NPM, Yarn
 - Backend development (python stack)
-  - Languages: Python `***` C# `**`
   - Application frameworks:
 - Database development
   - Relational: PostgreSQL
 - Database development - NoSql
-- Other development:
-  - Selenium tests
-    - Robot framework `***`
-  - Version control
-    - GIT `***`
-- DevOps
-  - Docker & docker-compose `**`
-  - Kubernetes `**`
-  - Bash `*`
-  - CI/CD: GitLab CI `***` Jenkins `**` Travis CI `*` Best practices `***`
-- Project management
 
-## Frontend development
+## Details
 
-### Layout and styling
+|                                               | Level | Prio to study | Bookmarks | Notes/cheatsheet | Template/POC |
+| :-------------------------------------------- | :---- | :-----------: | :-------- | :--------------: | :----------- |
+| .                                             |       |               |           |                  |              |
+| **FRONTEND DEVELOPMENT**                      |       |               |           |                  |              |
+| Layout and styling                            |       |               |           |                  |              |
+| HTML                                          | `**`  |               |           |                  |              |
+| CSS                                           | `**`  |               |           |                  |              |
+| SASS                                          | `**`  |               |           |                  |              |
+| Bootstrap                                     | `**`  |               |           |                  |              |
+| Languages                                     |       |               |           |                  |              |
+| Javascript (ES6)                              | `***` |               |           |                  |              |
+| Typescript                                    | `**`  |               |           |                  |              |
+| Application frameworks                        |       |               |           |                  |              |
+| React & Flux/Redux                            | `***` |               |           |                  |              |
+| Vue & Vuex                                    | `**`  |      P1       |           |                  |              |
+| Libraries                                     |       |               |           |                  |              |
+| jQuery                                        | `**`  |               |           |                  |              |
+| RxJS                                          | `*`   |      P2       |           |                  |              |
+| Tools                                         |       |               |           |                  |              |
+| Webpack                                       | `**`  |               |           |                  |              |
+| ESLint                                        | `**`  |               |           |                  |              |
+| Bower & Grunt/Gulp                            | `**`  |               |           |                  |              |
+| NPM                                           | `**`  |               |           |                  |              |
+| Yarn                                          | `*`   |      P2       |           |                  |              |
+| **BACKEND DEVELOPMENT (PYTHON STACK)**        |       |               |           |                  |              |
+| ...                                           |       |               |           |                  |              |
+| **BACKEND DEVELOPMENT (PYTHON DJANGO STACK)** |       |               |           |                  |              |
+| ...                                           |       |               |           |                  |              |
+| **BACKEND DEVELOPMENT (.NET STACK)**          |       |               |           |                  |              |
+| ...                                           |       |               |           |                  |              |
 
-#### HTML `**`
+Notation:
 
-#### CSS/SASS `**`
+- `***` I know it well, no additional studying would be needed (studied in detail / used in real projects recently)
+- `**` Some studying/refreshing would be needed (studied it / used in real projects a while ago / have some proof-of-concepts, etc)
+- `*` Studying would be needed (I know "why" and "when" it should be used, but not much about "how")
 
-#### Bootstrap `**`
+---
 
-## General development
-
-### GIT
-
-GIT notes at `cheatsheets/git.md`.
-
-Worked with several other VCS, now irrelevant.
-
-## DevOps
-
-## Project management
-
-..
+_Auto-generated with ..._
