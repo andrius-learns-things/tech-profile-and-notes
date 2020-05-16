@@ -4,27 +4,27 @@ I am a software developer based in Vilnius, Lithuania. I am working in software 
 
 ## Technical profile
 
-| Level |                                               | Notes                                 |
-| ----: | :-------------------------------------------- | :------------------------------------ |
+| Level | Technology                                    | Notes                                 |
+| :---- | :-------------------------------------------- | :------------------------------------ |
 |       | **FRONTEND DEVELOPMENT**                      |                                       |
 |       | **Layout and styling**                        |                                       |
-|  `**` | HTML+CSS/SASS                                 |                                       |
-|  `**` | Bootstrap                                     |                                       |
+| `**`  | HTML+CSS/SASS                                 |                                       |
+| `**`  | Bootstrap                                     |                                       |
 |       | **Languages**                                 |                                       |
 | `***` | Javascript (ES6)                              |                                       |
-|  `**` | Typescript                                    |                                       |
+| `**`  | Typescript                                    |                                       |
 |       | **Application frameworks**                    |                                       |
 | `***` | React+Flux/Redux                              |                                       |
-|  `**` | Vue+Vuex                                      | `P1`                                  |
+| `**`  | Vue+Vuex                                      | `P1`                                  |
 |       | **Libraries**                                 |                                       |
-|  `**` | jQuery                                        |                                       |
-|   `*` | RxJS                                          | `P2`                                  |
+| `**`  | jQuery                                        |                                       |
+| `*`   | RxJS                                          | `P2`                                  |
 |       | **Tools**                                     |                                       |
-|  `**` | Webpack                                       |                                       |
-|  `**` | ESLint                                        |                                       |
-|  `**` | Bower+Grunt/Gulp                              |                                       |
-|  `**` | NPM                                           |                                       |
-|   `*` | Yarn                                          | `P2`                                  |
+| `**`  | Webpack                                       |                                       |
+| `**`  | ESLint                                        |                                       |
+| `**`  | Bower+Grunt/Gulp                              |                                       |
+| `**`  | NPM                                           |                                       |
+| `*`   | Yarn                                          | `P2`                                  |
 |       | **BACKEND DEVELOPMENT (PYTHON STACK)**        |                                       |
 |       | ...                                           |                                       |
 |       | **BACKEND DEVELOPMENT (PYTHON DJANGO STACK)** |                                       |
@@ -33,7 +33,7 @@ I am a software developer based in Vilnius, Lithuania. I am working in software 
 |       | ...                                           |                                       |
 |       | **DEVELOPMENT - OTHER**                       |                                       |
 |       | **Tools**                                     |                                       |
-|  `**` | Git                                           | [cheatsheet](notes/git/cheatsheet.md) |
+| `**`  | Git                                           | [cheatsheet](notes/git/cheatsheet.md) |
 |       | ...                                           |                                       |
 
 Notation:
