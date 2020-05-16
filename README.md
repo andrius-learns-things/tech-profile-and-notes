@@ -2,7 +2,7 @@
 
 I am a software developer based in Vilnius, Lithuania. I am working in software development since 2005.
 
-This page is a summary of what technologies and practices I am familiar with and my notes in various form: cheatsheets, bookmarks, proof-of-concepts, etc.
+This page is a summary of what technologies and practices I am familiar with and my notes in various form: cheatsheets, bookmarks, project-starter-templates, proof-of-concepts, etc.
 
 ## Notation:
 
@@ -43,7 +43,15 @@ Other:
 | **BACKEND DEVELOPMENT**   |       |                       |                                       |
 | **(.NET STACK)**          |       |                       |                                       |
 |                           |       | ...                   |                                       |
-| **DEVELOPMENT (GENERAL)** |       |                       |                                       |
-| **Tools**                 |       |                       |                                       |
-|                           | `**`  | Git                   | [cheatsheet](notes/git/cheatsheet.md) |
-|                           |       | ...                   |                                       |
+| **DEVELOPMENT (OTHER)**   |       |                       |                                       |
+| Version control           | `**`  | Git                   | [cheatsheet](notes/git/cheatsheet.md) |
+| Selenium tests            | `**`  | Robot framework       | TODO: add POC                         |
+| **DEVOPS**                |       |                       |                                       |
+| Tools                     | `**`  | Docker                |                                       |
+|                           | `**`  | Docker compose        |                                       |
+|                           | `**`  | Kubernetes            |                                       |
+|                           | `**`  | Bash scripting        |                                       |
+| CI/CD systems             | `***` | GitLab CI             |                                       |
+|                           | `**`  | Jenkins               |                                       |
+|                           | `*`   | Travis CI             |                                       |
+| CI/CD best practices      | `*`   |                       | TODO: add from KB                     |
