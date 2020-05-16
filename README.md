@@ -5,7 +5,7 @@ I am a software developer based in Vilnius, Lithuania. I am working in software 
 ## Summary
 
 - Frontend development
-  - Layout and styling: HTML, CSS, SASS, Bootstrap
+  - Layout and styling: HTML+CSS/SASS, Bootstrap
   - Languages: Javascript (ES6), Typescript
   - Application frameworks: React & Flux/Redux, Vue & Vuex
   - Libraries: jQuery, RxJS
@@ -18,35 +18,33 @@ I am a software developer based in Vilnius, Lithuania. I am working in software 
 
 ## Details
 
-|                                               | Level | Prio to study | Bookmarks | Notes/cheatsheet | Template/POC |
-| :-------------------------------------------- | :---- | :-----------: | :-------- | :--------------: | :----------- |
-| **FRONTEND DEVELOPMENT**                      |       |               |           |                  |              |
-| **Layout and styling**                        |       |               |           |                  |              |
-| HTML                                          | `**`  |               |           |                  |              |
-| CSS                                           | `**`  |               |           |                  |              |
-| SASS                                          | `**`  |               |           |                  |              |
-| Bootstrap                                     | `**`  |               |           |                  |              |
-| **Languages**                                 |       |               |           |                  |              |
-| Javascript (ES6)                              | `***` |               |           |                  |              |
-| Typescript                                    | `**`  |               |           |                  |              |
-| **Application frameworks**                    |       |               |           |                  |              |
-| React & Flux/Redux                            | `***` |               |           |                  |              |
-| Vue & Vuex                                    | `**`  |      P1       |           |                  |              |
-| **Libraries**                                 |       |               |           |                  |              |
-| jQuery                                        | `**`  |               |           |                  |              |
-| RxJS                                          | `*`   |      P2       |           |                  |              |
-| **Tools**                                     |       |               |           |                  |              |
-| Webpack                                       | `**`  |               |           |                  |              |
-| ESLint                                        | `**`  |               |           |                  |              |
-| Bower & Grunt/Gulp                            | `**`  |               |           |                  |              |
-| NPM                                           | `**`  |               |           |                  |              |
-| Yarn                                          | `*`   |      P2       |           |                  |              |
-| **BACKEND DEVELOPMENT (PYTHON STACK)**        |       |               |           |                  |              |
-| ...                                           |       |               |           |                  |              |
-| **BACKEND DEVELOPMENT (PYTHON DJANGO STACK)** |       |               |           |                  |              |
-| ...                                           |       |               |           |                  |              |
-| **BACKEND DEVELOPMENT (.NET STACK)**          |       |               |           |                  |              |
-| ...                                           |       |               |           |                  |              |
+|                                               | Level | Prio | Notes |
+| :-------------------------------------------- | :---- | :--: | :---- |
+| **FRONTEND DEVELOPMENT**                      |       |      |       |
+| **Layout and styling**                        |       |      |       |
+| HTML+CSS/SASS                                 | `**`  |      |       |
+| Bootstrap                                     | `**`  |      |       |
+| **Languages**                                 |       |      |       |
+| Javascript (ES6)                              | `***` |      |       |
+| Typescript                                    | `**`  |      |       |
+| **Application frameworks**                    |       |      |       |
+| React+Flux/Redux                              | `***` |      |       |
+| Vue+Vuex                                      | `**`  |  P1  |       |
+| **Libraries**                                 |       |      |       |
+| jQuery                                        | `**`  |      |       |
+| RxJS                                          | `*`   |  P2  |       |
+| **Tools**                                     |       |      |       |
+| Webpack                                       | `**`  |      |       |
+| ESLint                                        | `**`  |      |       |
+| Bower+Grunt/Gulp                              | `**`  |      |       |
+| NPM                                           | `**`  |      |       |
+| Yarn                                          | `*`   |  P2  |       |
+| **BACKEND DEVELOPMENT (PYTHON STACK)**        |       |      |       |
+| ...                                           |       |      |       |
+| **BACKEND DEVELOPMENT (PYTHON DJANGO STACK)** |       |      |       |
+| ...                                           |       |      |       |
+| **BACKEND DEVELOPMENT (.NET STACK)**          |       |      |       |
+| ...                                           |       |      |       |
 
 Notation:
 
