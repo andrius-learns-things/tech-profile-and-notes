@@ -1,10 +1,10 @@
-# Andrius B. technical profile
+# Andrius B. technical profile (WIP)
 
 I am Andrius - software developer based in Vilnius, Lithuania, working in software development since 2005.
 
 This repo is my technical profile - things I have learned and things I still need to learn. It also contains my technical notes in various form: bookmarks, cheetsheets, proof of concepts, etc.
 
-Notation, used in this page:
+Notation used in this page:
 
 - `***` I know it well, no additional studying would be needed (studied in detail / used in real projects recently)
 - `**` Some studying/refreshing would be needed (studied it / used in real projects a while ago / have some proof-of-concepts, etc)
@@ -14,26 +14,11 @@ Notation, used in this page:
 ## Summary
 
 - Frontend development
-  - Styling
-    - HTML `**`
-    - CSS/SASS `**`
-    - Bootstrap `**`
-  - Language
-    - Javascript (ES6) `***`
-    - Typescript `**`
-  - Application framework
-    - React & Flux/Redux `***`
-    - Vue & Vuex `**` `p1`
-    - Angular `*`
-  - Libraries
-    - jQuery `**`
-    - RxJS `*` `p2`
-  - Tools
-    - Webpack `**`
-    - ESLint `**`
-    - Bower & Grunt/Gulp `**`
-    - NPM `**`
-    - Yarn `*` `p2`
+  - Styling: HTML `**`, CSS/SASS `**`, Bootstrap `**`
+  - Languages: Javascript (ES6) `***`, Typescript `**`
+  - Application frameworks: React & Flux/Redux `***`, Vue & Vuex `**` `p1`
+  - Libraries: jQuery `**`, RxJS `*` `p2`
+  - Tools: Webpack `**`, ESLint `**`, Bower & Grunt/Gulp `**`, NPM `**`, Yarn `*` `p2`
 - Backend development
 - Database development - RDMS
 - Database development - NoSql
@@ -46,12 +31,7 @@ Notation, used in this page:
   - Docker & docker-compose `**`
   - Kubernetes `**`
   - Bash `*`
-  - CI/CD
-    - GitLab CI `***`
-    - Jenkins `**`
-    - Travis CI `*`
-    - Best practices `***`
-  -
+  - CI/CD: GitLab CI `***`, Jenkins `**`, Travis CI `*`, Best practices `***`
 - Project management
 
 ## Frontend development
