@@ -41,21 +41,11 @@ Notation used in this page:
 
 ### Layout and styling
 
-#### HTML
+#### HTML `**`
 
-Level: `**`
+#### CSS/SASS `**`
 
-#### CSS/SASS
-
-Level: `**`
-
-#### Bootstrap
-
-Level: `**`
-
-Some task.
-
-Some notes...
+#### Bootstrap `**`
 
 ## General development
 
