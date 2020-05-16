@@ -17,42 +17,42 @@ Other notation:
 - `PN` TODO to study more with prio N
 - `TODO` TODO to update this page
 
-| Category                  | Level | Technology       | Notes                                 |
-| :------------------------ | :---- | :--------------- | ------------------------------------- |
-| **FRONTEND DEVELOPMENT**  |       |                  |                                       |
-| Styling                   | `**`  | HTML+CSS/SASS    |                                       |
-|                           | `**`  | Bootstrap        |                                       |
-| Languages                 | `***` | Javascript (ES6) |                                       |
-|                           | `**`  | Typescript       |                                       |
-| App frameworks            | `***` | React+Flux/Redux |                                       |
-|                           | `**`  | Vue+Vuex         | `P1`                                  |
-| Libraries                 | `**`  | jQuery           |                                       |
-|                           | `*`   | RxJS             | `P2`                                  |
-| Tools                     | `**`  | Webpack          |                                       |
-|                           | `**`  | ESLint           |                                       |
-|                           | `**`  | Bower+Grunt/Gulp |                                       |
-|                           | `**`  | NPM              |                                       |
-|                           | `*`   | Yarn             | `P2`                                  |
-| **BACKEND DEVELOPMENT**   |       |                  |                                       |
-| **(PYTHON STACK)**        |       |                  |                                       |
-|                           |       | ...              |                                       |
-| **BACKEND DEVELOPMENT**   |       |                  |                                       |
-| **(PYTHON DJANGO STACK)** |       |                  |                                       |
-|                           |       | ...              |                                       |
-| **BACKEND DEVELOPMENT**   |       |                  |                                       |
-| **(.NET STACK)**          |       |                  |                                       |
-|                           |       | ...              |                                       |
-| **DEVELOPMENT (OTHER)**   |       |                  |                                       |
-| Version control           | `**`  | Git              | [cheatsheet](notes/git/cheatsheet.md) |
-| Selenium tests            | `**`  | Robot framework  | `TODO` add POC                        |
-| **DEVOPS**                |       |                  |                                       |
-| Tools                     | `**`  | Docker           |                                       |
-|                           | `**`  | Docker compose   |                                       |
-|                           | `**`  | Kubernetes       |                                       |
-|                           | `**`  | Bash scripting   |                                       |
-| CI/CD systems             | `***` | GitLab CI        |                                       |
-|                           | `**`  | Jenkins          |                                       |
-|                           | `*`   | Travis CI        |                                       |
+| Category                  | Level     | Technology       | Notes                                 |
+| :------------------------ | :-------- | :--------------- | ------------------------------------- |
+| **FRONTEND DEVELOPMENT**  |           |                  |                                       |
+| Styling                   | `**`      | HTML+CSS/SASS    |                                       |
+|                           | `**`      | Bootstrap        |                                       |
+| Languages                 | `***`     | Javascript (ES6) |                                       |
+|                           | `**`      | Typescript       |                                       |
+| App frameworks            | `***`     | React+Flux/Redux |                                       |
+|                           | `**` `P1` | Vue+Vuex         |                                       |
+| Libraries                 | `**`      | jQuery           |                                       |
+|                           | `*` `P2`  | RxJS             |                                       |
+| Tools                     | `**`      | Webpack          |                                       |
+|                           | `**`      | ESLint           |                                       |
+|                           | `**`      | Bower+Grunt/Gulp |                                       |
+|                           | `**`      | NPM              |                                       |
+|                           | `*` `P2`  | Yarn             |                                       |
+| **BACKEND DEVELOPMENT**   |           |                  |                                       |
+| **(PYTHON STACK)**        |           |                  |                                       |
+|                           |           | ...              |                                       |
+| **BACKEND DEVELOPMENT**   |           |                  |                                       |
+| **(PYTHON DJANGO STACK)** |           |                  |                                       |
+|                           |           | ...              |                                       |
+| **BACKEND DEVELOPMENT**   |           |                  |                                       |
+| **(.NET STACK)**          |           |                  |                                       |
+|                           |           | ...              |                                       |
+| **DEVELOPMENT (OTHER)**   |           |                  |                                       |
+| Version control           | `**`      | Git              | [cheatsheet](notes/git/cheatsheet.md) |
+| Selenium tests            | `**`      | Robot framework  | `TODO` add POC                        |
+| **DEVOPS**                |           |                  |                                       |
+| Tools                     | `**`      | Docker           |                                       |
+|                           | `**`      | Docker compose   |                                       |
+|                           | `**`      | Kubernetes       |                                       |
+|                           | `**`      | Bash             |                                       |
+| CI/CD systems             | `***`     | GitLab CI        |                                       |
+|                           | `**`      | Jenkins          |                                       |
+|                           | `*`       | Travis CI        |                                       |
 
 ## Best practices
 
