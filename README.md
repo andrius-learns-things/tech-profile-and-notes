@@ -14,13 +14,16 @@ Notation used in this page:
 ## Summary
 
 - Frontend development
-  - Styling: HTML `**` CSS/SASS `**` Bootstrap `**`
+  - Layout and styling: HTML `**` CSS/SASS `**` Bootstrap `**`
   - Languages: Javascript (ES6) `***` Typescript `**`
   - Application frameworks: React & Flux/Redux `***` Vue & Vuex `**` `p1`
   - Libraries: jQuery `**` RxJS `*` `p2`
   - Tools: Webpack `**` ESLint `**` Bower & Grunt/Gulp `**` NPM `**` Yarn `*` `p2`
-- Backend development
-- Database development - RDMS
+- Backend development (python stack)
+  - Languages: Python `***` C# `**`
+  - Application frameworks:
+- Database development
+  - Relational: PostgreSQL
 - Database development - NoSql
 - Other development:
   - Selenium tests
@@ -34,11 +37,30 @@ Notation used in this page:
   - CI/CD: GitLab CI `***` Jenkins `**` Travis CI `*` Best practices `***`
 - Project management
 
-## Frontend development
+## Details
+
+### HTML
+
+Frontend development -> Layout and styling
+
+Level: `**`
+
+### CSS/SASS
+
+Frontend development -> Layout and styling
+
+Level: `**`
+
+### Bootstrap
+
+Frontend development -> Layout and styling
+
+Level: `**`
 
 ### Styling
 
-**HTML** `*`
+**HTML**
+`*`
 
 Some task.
 
