@@ -22,21 +22,21 @@ I am a software developer based in Vilnius, Lithuania. I am working in software 
 | :-------------------------------------------- | :---- | :-----------: | :-------- | :--------------: | :----------- |
 | .                                             |       |               |           |                  |              |
 | **FRONTEND DEVELOPMENT**                      |       |               |           |                  |              |
-| Layout and styling                            |       |               |           |                  |              |
+| **Layout and styling**                        |       |               |           |                  |              |
 | HTML                                          | `**`  |               |           |                  |              |
 | CSS                                           | `**`  |               |           |                  |              |
 | SASS                                          | `**`  |               |           |                  |              |
 | Bootstrap                                     | `**`  |               |           |                  |              |
-| Languages                                     |       |               |           |                  |              |
+| **Languages**                                 |       |               |           |                  |              |
 | Javascript (ES6)                              | `***` |               |           |                  |              |
 | Typescript                                    | `**`  |               |           |                  |              |
-| Application frameworks                        |       |               |           |                  |              |
+| **Application frameworks**                    |       |               |           |                  |              |
 | React & Flux/Redux                            | `***` |               |           |                  |              |
 | Vue & Vuex                                    | `**`  |      P1       |           |                  |              |
-| Libraries                                     |       |               |           |                  |              |
+| **Libraries**                                 |       |               |           |                  |              |
 | jQuery                                        | `**`  |               |           |                  |              |
 | RxJS                                          | `*`   |      P2       |           |                  |              |
-| Tools                                         |       |               |           |                  |              |
+| **Tools**                                     |       |               |           |                  |              |
 | Webpack                                       | `**`  |               |           |                  |              |
 | ESLint                                        | `**`  |               |           |                  |              |
 | Bower & Grunt/Gulp                            | `**`  |               |           |                  |              |
