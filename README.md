@@ -21,7 +21,6 @@ I am a software developer based in Vilnius, Lithuania. I am working in software 
 |                                               | Level | Prio to study | Bookmarks | Notes/cheatsheet | Template/POC |
 | :-------------------------------------------- | :---- | :-----------: | :-------- | :--------------: | :----------- |
 | **FRONTEND DEVELOPMENT**                      |       |               |           |                  |              |
-| :-------------------------------------------- | :---- | :-----------: | :-------- | :--------------: | :----------- |
 | **Layout and styling**                        |       |               |           |                  |              |
 | HTML                                          | `**`  |               |           |                  |              |
 | CSS                                           | `**`  |               |           |                  |              |
@@ -43,13 +42,10 @@ I am a software developer based in Vilnius, Lithuania. I am working in software 
 | NPM                                           | `**`  |               |           |                  |              |
 | Yarn                                          | `*`   |      P2       |           |                  |              |
 | **BACKEND DEVELOPMENT (PYTHON STACK)**        |       |               |           |                  |              |
-| :-------------------------------------------- | :---- | :-----------: | :-------- | :--------------: | :----------- |
 | ...                                           |       |               |           |                  |              |
 | **BACKEND DEVELOPMENT (PYTHON DJANGO STACK)** |       |               |           |                  |              |
-| :-------------------------------------------- | :---- | :-----------: | :-------- | :--------------: | :----------- |
 | ...                                           |       |               |           |                  |              |
 | **BACKEND DEVELOPMENT (.NET STACK)**          |       |               |           |                  |              |
-| :-------------------------------------------- | :---- | :-----------: | :-------- | :--------------: | :----------- |
 | ...                                           |       |               |           |                  |              |
 
 Notation:
