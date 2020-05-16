@@ -2,6 +2,18 @@
 
 I am a software developer based in Vilnius, Lithuania. I am working in software development since 2005.
 
+## Notation:
+
+Knowledge level:
+
+- `***` I know it well, no additional studying would be needed (studied in detail / used in real projects recently)
+- `**` Some studying/refreshing may be needed (studied it / used in real projects a while ago / have some proof-of-concepts, etc)
+- `*` Studying would be needed (I know _why_ and _when_ it should be used, but not much about _how_)
+
+Other:
+
+- `PN` TODO to study more with prio N
+
 ## Technical profile
 
 | Category                  | Level | Technology       | Notes                                 |
@@ -33,10 +45,3 @@ I am a software developer based in Vilnius, Lithuania. I am working in software 
 | **Tools**                 |       |                  |                                       |
 |                           | `**`  | Git              | [cheatsheet](notes/git/cheatsheet.md) |
 |                           |       | ...              |                                       |
-
-Notation:
-
-- `***` I know it well, no additional studying would be needed (studied in detail / used in real projects recently)
-- `**` Some studying/refreshing may be needed (studied it / used in real projects a while ago / have some proof-of-concepts, etc)
-- `*` Studying would be needed (I know _why_ and _when_ it should be used, but not much about _how_)
-- `PN` TODO to study more with prio N
