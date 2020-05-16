@@ -37,23 +37,23 @@ Notation used in this page:
   - CI/CD: GitLab CI `***` Jenkins `**` Travis CI `*` Best practices `***`
 - Project management
 
-## Details
+## Frontend development
 
 ### HTML
 
-Frontend development -> Layout and styling
+###### Layout and styling
 
 Level: `**`
 
 ### CSS/SASS
 
-Frontend development -> Layout and styling
+###### Layout and styling
 
 Level: `**`
 
 ### Bootstrap
 
-Frontend development -> Layout and styling
+###### Layout and styling
 
 Level: `**`
 
