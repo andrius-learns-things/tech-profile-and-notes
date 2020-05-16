@@ -39,28 +39,19 @@ Notation used in this page:
 
 ## Frontend development
 
-### HTML
+### Layout and styling
 
-###### Layout and styling
-
-Level: `**`
-
-### CSS/SASS
-
-###### Layout and styling
+#### HTML
 
 Level: `**`
 
-### Bootstrap
-
-###### Layout and styling
+#### CSS/SASS
 
 Level: `**`
 
-### Styling
+#### Bootstrap
 
-**HTML**
-`*`
+Level: `**`
 
 Some task.
 
