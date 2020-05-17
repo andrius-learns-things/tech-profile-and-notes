@@ -116,6 +116,7 @@ Notation:
 | **DEVOPS**                       |           |                      |                                       |
 | Tools                            | `**`      | Docker               |                                       |
 |                                  | `**`      | Docker compose       |                                       |
+|                                  | `P1`      | Helm                 |                                       |
 |                                  | `**`      | Kubernetes           |                                       |
 |                                  | `**`      | Bash                 |                                       |
 | CI/CD systems                    | `***`     | GitLab CI            |                                       |
@@ -137,21 +138,38 @@ Notation:
 - `*` I have not used it and also have doubts if it is for every situation
 - `?` Just an untested idea
 
-| Category                       | Level | Practice                                          | Notes          | Tools                                                      |
-| :----------------------------- | :---- | :------------------------------------------------ | :------------- | :--------------------------------------------------------- |
-| **TECHNICAL SETUP AUTOMATION** |       |                                                   |                |                                                            |
-| Local env                      | `***` | One line command to start the project             |                | `docker-compose`, `make`                                   |
-|                                | `***` | Makefiles to manage package installs              |                | `make`                                                     |
-| CI & local env                 | `***` | Unit tests                                        |                | `jest`, `pytest`                                           |
-|                                | `***` | Enforced code style                               |                | Linters `eslint`, `flake8`, formatters `prettier`, `black` |
-|                                | `**`  | Enforced code complexity limit                    |                | `flake8` with `max-complexity` param                       |
-|                                | `***` | Enforced unit test coverage percentage            |                | `pytest-cov` with `fail_under` param                       |
-|                                | `***` | Static security checks                            |                | `npm audit`, `snyk`, `bandit`                              |
-| CI                             | `***` | CI runs not only on commit, but also nightly      |                |                                                            |
-|                                | `*`   | Dynamic security tests in alpha                   |                | `OWASP ZAP`                                                |
-|                                | `?`   | Automated memory leak checks                      | `TODO` add POC |                                                            |
-|                                | `?`   | Ensuring clean error log during integration tests |                |                                                            |
-|                                | `?`   | Performance measurements during integration tests |                |                                                            |
-| CD                             | `***` | Keep track of deployed envs automatically         |                | `GitLab CI environments`                                   |
-| **DEVELOPMENT PROCESS**        |       |                                                   |                |                                                            |
-| Local dev environment          | `***` | One line command to start the project             |                | `docker-compose`, `make`                                   |
+| Category                 | Level | Practice                                                      | Notes              | Tools used                                                 |
+| :----------------------- | :---- | :------------------------------------------------------------ | :----------------- | :--------------------------------------------------------- |
+| **ENVIRONMENTS & CI/CD** |       |                                                               |                    |                                                            |
+| Local env                | `***` | One line command to start the project                         |                    | `docker-compose`, `make`                                   |
+|                          | `***` | Makefiles to manage package installs                          |                    | `make`                                                     |
+|                          | `**`  | Prod-like dev env                                             |                    | `docker`                                                   |
+|                          | `**`  | Convenient way to reload                                      |                    | `webpack hot-reload`                                       |
+|                          | `**`  | Convenient way to debug                                       |                    | Pycharm, VS code in-line debugger, source-maps             |
+| CI & local env           | `***` | Unit tests                                                    |                    | `jest`, `pytest`                                           |
+|                          | `***` | Enforced code style                                           |                    | Linters `eslint`, `flake8`, formatters `prettier`, `black` |
+|                          | `**`  | Enforced code complexity limit                                |                    | `flake8` with `max-complexity` param                       |
+|                          | `***` | Enforced unit test coverage percentage                        |                    | `pytest-cov` with `fail_under` param                       |
+|                          | `***` | Static security checks                                        |                    | `npm audit`, `snyk`, `bandit`                              |
+| CI                       | `***` | CI runs not only on commit, but also nightly                  |                    |                                                            |
+|                          | `*`   | Dynamic security tests                                        |                    | `OWASP ZAP`                                                |
+|                          | `*`   | Integration tests                                             |                    | `robot-framework with selenium2`                           |
+|                          | `***` | Prealpha environment for smoke testing before alpha           |                    |                                                            |
+|                          | `?`   | Automated memory leak checks                                  | `TODO` add POC     |                                                            |
+|                          | `?`   | Ensuring clean error log during integration tests             |                    |                                                            |
+|                          | `?`   | Performance measurements during integration tests             |                    |                                                            |
+| CD                       | `***` | Keep track of deployed envs automatically                     |                    | `GitLab CI environments`                                   |
+|                          | `*`   | Pre-deploy dependency checks                                  |                    | custom mechanism                                           |
+|                          | `***` | After-deploy version checks                                   | `TODO` add snippet | custom /version endpoints                                  |
+|                          | `**`  | Auto-scaling                                                  |                    | `kubernetes`                                               |
+|                          | `**`  | Rolling updates and avoided downtime                          |                    | `kubernetes`                                               |
+|                          | `**`  | Liveness, readyness checks and auto-recovery                  |                    | `kubernetes`                                               |
+| Monitoring               | `*`   | User usage metrics                                            |                    | `google-analytics`                                         |
+|                          | `***` | Server performance & alerts                                   |                    | `new relic`                                                |
+|                          | `**`  | Aggregated logs                                               |                    | `graylog`                                                  |
+|                          | `*`   | Custom metrics                                                | `TODO` add POC     | `Grafana`                                                  |
+|                          | `?`   | Health/smoke tests with selenium in production                |                    | `robot-framework with selenium2`                           |
+| **APPLICATION DESIGN**   |       |                                                               |                    |                                                            |
+| Scalablity               | `***` | Web app is built to be stateless - external session and cache |                    | `redis`                                                    |
+| **DEVELOPMENT PROCESS**  |       |                                                               |                    |                                                            |
+| Local dev environment    | `***` |                                                               |                    |                                                            |
