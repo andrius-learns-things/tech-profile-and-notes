@@ -46,7 +46,14 @@ Scrum master / technical project manager:
   - daily devs discussions & daily scrum
 - Plan preparation with service owners and product owners (goals, schedule, versions, tickets):
 - Performing feature demonstrations, other presentations
-- Making sure there is always clear work and priorities for everyone
+- Making sure there is always clear work and priorities for everyone in the team
+
+**2005-2014**
+
+Developer:
+
+- Doing development tasks
+- Participating in system design discussions with team
 
 **2005-2007**
 
@@ -138,53 +145,61 @@ Notation:
 - `*` I have not used it and also have doubts if it is for every situation
 - `?` Just an untested idea
 
-| Category          | Level | Practice                                                  | Notes / Tools used                                         |
-| :---------------- | :---- | :-------------------------------------------------------- | :--------------------------------------------------------- |
-| **ENVS & CI/CD**  |       |                                                           |                                                            |
-| Local env         | `***` | One line command to start the project                     | `docker-compose`, `make`                                   |
-|                   | `***` | Makefiles to manage package installs                      | `make`                                                     |
-|                   | `**`  | Prod-like dev env                                         | `docker`                                                   |
-|                   | `**`  | Convenient way to reload                                  | `webpack hot-reload`                                       |
-|                   | `**`  | Convenient way to debug                                   | Pycharm, VS code in-line debugger, source-maps             |
-| CI & local env    | `***` | Unit tests                                                | `jest`, `pytest`                                           |
-|                   | `***` | Enforced code style                                       | Linters `eslint`, `flake8`, formatters `prettier`, `black` |
-|                   | `**`  | Enforced code complexity limit                            | `flake8` with `max-complexity` param                       |
-|                   | `***` | Enforced unit test coverage percentage                    | `pytest-cov` with `fail_under` param                       |
-|                   | `***` | Static security checks                                    | `npm audit`, `snyk`, `bandit`                              |
-| CI                | `***` | CI runs not only on commit, but also nightly              |                                                            |
-|                   | `*`   | Dynamic security tests                                    | `OWASP ZAP`                                                |
-|                   | `*`   | Integration tests                                         | `robot-framework with selenium2`                           |
-|                   | `***` | Prealpha environment for smoke testing before alpha       |                                                            |
-|                   | `?`   | Automated memory leak checks                              | `TODO` add POC                                             |
-|                   | `?`   | Ensuring clean error log during integration tests         |                                                            |
-|                   | `?`   | Performance measurements during integration tests         |                                                            |
-| CD                | `***` | Keep track of deployed envs automatically                 | `GitLab CI environments`                                   |
-|                   | `*`   | Pre-deploy dependency checks                              | custom mechanism                                           |
-|                   | `***` | After-deploy version checks                               | custom /version endpoints / `TODO` add snippet             |
-|                   | `**`  | Auto-scaling                                              | `kubernetes`                                               |
-|                   | `**`  | Rolling updates and avoided downtime                      | `kubernetes`                                               |
-|                   | `**`  | Liveness, readyness checks and auto-recovery              | `kubernetes`                                               |
-| Monitoring        | `*`   | User usage metrics                                        | `google-analytics`                                         |
-|                   | `***` | Server performance & alerts                               | `new relic`                                                |
-|                   | `**`  | Aggregated logs                                           | `graylog`                                                  |
-|                   | `*`   | Custom metrics                                            | `grafana` / `TODO` add POC                                 |
-|                   | `*`   | Incident tracker                                          | `sentry`                                                   |
-|                   | `?`   | Health/smoke tests with selenium in production            | `robot-framework with selenium2`                           |
-| **APP DESIGN**    |       |                                                           |                                                            |
-| Scalablity        | `***` | Stateless web app - external session and cache            | `redis`                                                    |
-| **DEV PROCESS**   |       |                                                           |                                                            |
-| Daily development | `***` | Commenting task merge request to the ticket               | `GitLab` merge requests                                    |
-|                   | `***` | Peer review is performed before merging                   | `GitLab` merge requests                                    |
-|                   | `***` | Daily group review for knowledge sharing                  | [notes](notes/process/group-review.md)                     |
-|                   | `**`  | Daily scrum                                               |                                                            |
-|                   | `**`  | Continous delivery to alpha                               |                                                            |
-|                   | `**`  | Marking external dependencies                             | In ticket and/or in code                                   |
-|                   | `*`   | Tests for new functionality and for new bugs found        |                                                            |
-| Before releases   | `***` | Arrange deployment freeze and regression testing in alpha |                                                            |
-|                   | `***` | Collect approvals (CAB)                                   |                                                            |
-|                   | `***` | Release notes                                             | [notes](notes/process/release-notes.md)                    |
-|                   | `***` | (When needed) Deployment plan and it's approvals          |                                                            |
-|                   | `***` | (When needed) Technical documentation updates             |                                                            |
-|                   | `**`  | (When needed) Performance testing in beta                 |                                                            |
-|                   | `***` | (When needed) Security audit                              |                                                            |
-| **DOCUMENTATION** |       |                                                           |                                                            |
+| Category          | Level | Practice                                                  | Notes / Tools used                             |
+| :---------------- | :---- | :-------------------------------------------------------- | :--------------------------------------------- |
+| **ENVS & CI/CD**  |       |                                                           |                                                |
+| Local env         | `***` | One line command to start the project                     | `docker-compose`, `make`                       |
+|                   | `***` | Makefiles to manage package installs                      | `make`                                         |
+|                   | `**`  | Prod-like dev env                                         | `docker`                                       |
+|                   | `**`  | Convenient way to reload                                  | `webpack hot-reload`                           |
+|                   | `**`  | Convenient way to debug                                   | Pycharm, VS code in-line debugger, source-maps |
+| CI & local env    | `***` | Unit tests                                                | `jest`, `pytest`                               |
+|                   | `***` | Enforced code style - linters                             | `eslint`, `flake8`                             |
+|                   | `***` | Enforced code style - formatters                          | `prettier`, `black`                            |
+|                   | `**`  | Enforced code complexity limit                            | `flake8` with `max-complexity` param           |
+|                   | `***` | Enforced unit test coverage percentage                    | `pytest-cov` with `fail_under` param           |
+|                   | `***` | Static security checks                                    | `npm audit`, `snyk`, `bandit`                  |
+| CI                | `***` | CI runs not only on commit, but also nightly              |                                                |
+|                   | `*`   | Dynamic security tests                                    | `OWASP ZAP`                                    |
+|                   | `*`   | Integration tests                                         | `robot-framework with selenium2`               |
+|                   | `***` | Prealpha environment for smoke testing before alpha       |                                                |
+|                   | `?`   | Automated memory leak checks                              | `TODO` add POC                                 |
+|                   | `?`   | Ensuring clean error log during integration tests         |                                                |
+|                   | `?`   | Performance measurements during integration tests         |                                                |
+| CD                | `***` | Keep track of deployed envs automatically                 | `GitLab CI environments`                       |
+|                   | `*`   | Pre-deploy dependency checks                              | custom mechanism                               |
+|                   | `***` | After-deploy version checks                               | custom /version endpoints / `TODO` add snippet |
+|                   | `**`  | Auto-scaling                                              | `kubernetes`                                   |
+|                   | `**`  | Rolling updates and avoided downtime                      | `kubernetes`                                   |
+|                   | `**`  | Liveness, readyness checks and auto-recovery              | `kubernetes`                                   |
+| Monitoring        | `*`   | User usage metrics                                        | `google-analytics`                             |
+|                   | `***` | Server performance & alerts                               | `new relic`                                    |
+|                   | `**`  | Aggregated logs                                           | `graylog`                                      |
+|                   | `*`   | Custom metrics                                            | `grafana` / `TODO` add POC                     |
+|                   | `*`   | Incident tracker                                          | `sentry`                                       |
+|                   | `?`   | Health/smoke tests with selenium in production            | `robot-framework with selenium2`               |
+| **APP DESIGN**    |       |                                                           |                                                |
+| Scalablity        | `***` | Stateless web app - external session and cache            | `redis`                                        |
+| **DEV PROCESS**   |       |                                                           |                                                |
+| Project-kickoff   | `***` | Define git-process                                        |                                                |
+|                   | `***` | Task workflow (states)                                    |                                                |
+|                   | `***` | Define definition of done                                 | [notes](notes/process/dod.md)                  |
+| Daily development | `***` | Commenting task merge request to the ticket               | `GitLab` merge requests                        |
+|                   | `***` | Peer review is performed before merging                   | `GitLab` merge requests                        |
+|                   | `***` | Daily group review for knowledge sharing                  | [notes](notes/process/group-review.md)         |
+|                   | `**`  | Daily scrum                                               |                                                |
+|                   | `**`  | Continous delivery to alpha                               |                                                |
+|                   | `**`  | Marking external dependencies                             | In ticket and/or in code                       |
+|                   | `*`   | Tests for new functionality and for new bugs found        |                                                |
+| Once in sprint    | `***` | Sprint review (overview, demo, feedback)                  |                                                |
+|                   | `***` | Sprint planning (goals, schedule, versions, tickets)      |                                                |
+|                   | `**`  | Backlog grooming and estimating                           |                                                |
+|                   | `***` | Retrospective                                             | [notes](notes/process/retro.md)                |
+| Before releases   | `***` | Arrange deployment freeze and regression testing in alpha |                                                |
+|                   | `***` | Collect approvals (CAB)                                   |                                                |
+|                   | `***` | Release notes                                             | [notes](notes/process/release-notes.md)        |
+|                   | `***` | (When needed) Deployment plan and it's approvals          |                                                |
+|                   | `***` | (When needed) Technical documentation updates             |                                                |
+|                   | `**`  | (When needed) Performance testing in beta                 |                                                |
+|                   | `***` | (When needed) Security audit                              |                                                |
+| **DOCUMENTATION** |       |                                                           |                                                |
