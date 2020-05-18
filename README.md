@@ -21,7 +21,7 @@ Tech lead:
 Devops:
 
 - CI/CD setup
-- Performance testing
+- Performance testing and tuning
 - Preparing deployment plans, performing deployments
 - Setting up new environments in cooperation with ops.
 
