@@ -120,6 +120,7 @@ Notation:
 | **DEVELOPMENT (OTHER)**          |           |                      |                                            |
 | Version control                  | `**`      | Git                  | [cheatsheet](notes/tech/git/cheatsheet.md) |
 | Selenium tests                   | `**`      | Robot framework      | `TODO` add POC                             |
+| Authentication                   | `**`      | OAuth, JWT           | `TODO` add POC                             |
 | **DEVOPS**                       |           |                      |                                            |
 | Tools                            | `**`      | Docker               |                                            |
 |                                  | `**`      | Docker compose       |                                            |
