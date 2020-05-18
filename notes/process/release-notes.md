@@ -1,4 +1,4 @@
-# Group reviews
+# Release notes
 
 Contents:
 
