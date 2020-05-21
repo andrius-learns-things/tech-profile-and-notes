@@ -76,66 +76,67 @@ Notation:
 - `**` Some studying/refreshing may be needed (studied it / used in real projects a while ago)
 - `*` Studying would be needed (I know _why_ and _when_ it should be used, but not much about the details of _how_)
 - `PN` TODO to study more with prio N
-- `TODO` TODO to update this page
+- `TD` TODO to add notes
+- `TDPOC` TODO to add Proof-Of-Concept
 
-| Category                         | Level     | Technology           | Notes                           |
-| :------------------------------- | :-------- | :------------------- | :------------------------------ |
-| **FRONTEND DEVELOPMENT**         |           |                      |                                 |
-| Styling                          | `**`      | HTML+CSS/SASS        |                                 |
-|                                  | `**`      | Bootstrap            |                                 |
-| Languages                        | `***`     | Javascript (ES6)     |                                 |
-|                                  | `**`      | Typescript           |                                 |
-| App frameworks                   | `***`     | React + Flux/Redux   |                                 |
-|                                  | `**` `P1` | Vue+Vuex             |                                 |
-| Libraries                        | `***`     | jQuery               |                                 |
-|                                  | `*` `P2`  | RxJS                 |                                 |
-| Tools                            | `**`      | Webpack              |                                 |
-|                                  | `**`      | ESLint               |                                 |
-|                                  | `**`      | Bower + Grunt/Gulp   |                                 |
-|                                  | `**`      | NPM                  |                                 |
-|                                  | `*` `P2`  | Yarn                 |                                 |
-| **BACKEND DEVELOPMENT (PYTHON)** |           |                      |                                 |
-| Langauge                         | `***`     | Python               |                                 |
-| App frameworks                   | `***`     | Bottle               |                                 |
-|                                  | `**`      | Flask                |                                 |
-|                                  | `*`       | Django               |                                 |
-| ORMs & migration tools           | `**`      | SqlAlchemy + Alembic | `TODO` add POC                  |
-|                                  | `**`      | DjangoORM            | `TODO` add POC                  |
-| REST API                         | `*` `P1`  | FlaskRest            | `TODO` add POC                  |
-|                                  | `*` `P1`  | Schematics           |                                 |
-|                                  | `*`       | DjangoREST           | `TODO` add POC                  |
-| GraphQL API                      | `*`       | Graphene             |                                 |
-| Async tasks                      | `*`       | Celery + RabbitMQ    | `TODO` add POC                  |
-| Queue                            | `*`       | pika + RabbitMQ      | `TODO` add POC                  |
-| Web server setup                 | `**`      | nginx + uwsgi        | `TODO` add POC                  |
-| **BACKEND DEVELOPMENT (.NET)**   |           |                      |                                 |
-| ...                              |           | ...                  |                                 |
-| **DATABASES**                    |           |                      |                                 |
-| Relational                       | `*`       | PostgreSQL           | `TODO` add POC                  |
-|                                  | `**`      | MS SQL Server        |                                 |
-|                                  | `*`       | MySQL                |                                 |
-| NoSQL                            | `**`      | Redis                | `TODO` add POC                  |
-|                                  | `*`       | MongoDB              | `TODO` add POC                  |
-| Search engines                   | `*`       | Elastic search       |                                 |
-| **DEVELOPMENT (OTHER)**          |           |                      |                                 |
-| Version control                  | `**`      | Git                  | Chectsheet: [git](notes/git.md) |
-| Selenium tests                   | `**`      | Robot framework      | `TODO` add POC                  |
-| Authentication                   | `**`      | OAuth, JWT           | `TODO` add POC                  |
-| **DEVOPS**                       |           |                      |                                 |
-| Tools                            | `**`      | Docker               |                                 |
-|                                  | `**`      | Docker compose       |                                 |
-|                                  | `P1`      | Helm                 |                                 |
-|                                  | `**`      | Kubernetes           |                                 |
-|                                  | `**`      | Bash                 |                                 |
-| CI/CD systems                    | `***`     | GitLab CI            |                                 |
-|                                  | `**`      | Jenkins              |                                 |
-|                                  | `*`       | Travis CI            |                                 |
-| Monitoring                       | `**`      | NewRelic             |                                 |
-|                                  | `**`      | Graylog              |                                 |
-|                                  | `*`       | Sentry               |                                 |
-|                                  | `*`       | Graphite & Graphana  | `TODO` add POC                  |
-|                                  | `*`       | Google analytics     |                                 |
-| Perofmance testing               | `**`      | Locust               | `TODO` add POC                  |
+| Category                         | Level     | Technology                   | Notes                           |
+| :------------------------------- | :-------- | :--------------------------- | :------------------------------ |
+| **FRONTEND DEVELOPMENT**         |           |                              |                                 |
+| Styling                          | `**`      | HTML+CSS/SASS                |                                 |
+|                                  | `**`      | Bootstrap                    |                                 |
+| Languages                        | `***`     | Javascript (ES6)             |                                 |
+|                                  | `**`      | Typescript                   |                                 |
+| App frameworks                   | `***`     | React + Flux/Redux           |                                 |
+|                                  | `**` `P1` | Vue+Vuex                     |                                 |
+| Libraries                        | `***`     | jQuery                       |                                 |
+|                                  | `*` `P2`  | RxJS                         |                                 |
+| Tools                            | `**`      | Webpack                      |                                 |
+|                                  | `**`      | ESLint                       |                                 |
+|                                  | `**`      | Bower + Grunt/Gulp           |                                 |
+|                                  | `**`      | NPM                          |                                 |
+|                                  | `*` `P2`  | Yarn                         |                                 |
+| **BACKEND DEVELOPMENT (PYTHON)** |           |                              |                                 |
+| Langauge                         | `***`     | Python                       |                                 |
+| App frameworks                   | `***`     | Bottle                       |                                 |
+|                                  | `**`      | Flask                        |                                 |
+|                                  | `*`       | Django                       |                                 |
+| ORMs & migration tools           | `**`      | SqlAlchemy + Alembic `TDPOC` |                                 |
+|                                  | `**`      | DjangoORM `TDPOC`            |                                 |
+| REST API                         | `*` `P1`  | FlaskRest `TDPOC`            |                                 |
+|                                  | `*` `P1`  | Schematics                   |                                 |
+|                                  | `*`       | DjangoREST `TDPOC`           |                                 |
+| GraphQL API                      | `*`       | Graphene                     |                                 |
+| Async tasks                      | `*`       | Celery + RabbitMQ `TDPOC`    |                                 |
+| Queue                            | `*`       | pika + RabbitMQ `TDPOC`      |                                 |
+| Web server setup                 | `**`      | nginx + uwsgi  `TDPOC`       |                                 |
+| **BACKEND DEVELOPMENT (.NET)**   |           |                              |                                 |
+| ...                              |           | ...                          |                                 |
+| **DATABASES**                    |           |                              |                                 |
+| Relational                       | `*`       | PostgreSQL `TDPOC`           |                                 |
+|                                  | `*`       | MySQL                        |                                 |
+|                                  | `**`      | MS SQL Server                |                                 |
+| NoSQL                            | `**`      | Redis `TDPOC`                |                                 |
+|                                  | `*`       | MongoDB `TDPOC`              |                                 |
+| Search engines                   | `*`       | Elastic search               |                                 |
+| **DEVELOPMENT (OTHER)**          |           |                              |                                 |
+| Version control                  | `**`      | Git                          | Chectsheet: [git](notes/git.md) |
+| Selenium tests                   | `**`      | Robot framework `TDPOC`      |                                 |
+| Authentication                   | `**`      | OAuth, JWT `TDPOC`           |                                 |
+| **DEVOPS**                       |           |                              |                                 |
+| Tools                            | `**`      | Docker                       |                                 |
+|                                  | `**`      | Docker compose               |                                 |
+|                                  | `P1`      | Helm                         |                                 |
+|                                  | `**`      | Kubernetes                   |                                 |
+|                                  | `**`      | Bash                         |                                 |
+| CI/CD systems                    | `***`     | GitLab CI                    |                                 |
+|                                  | `**`      | Jenkins                      |                                 |
+|                                  | `*`       | Travis CI                    |                                 |
+| Monitoring                       | `**`      | NewRelic                     |                                 |
+|                                  | `**`      | Graylog                      |                                 |
+|                                  | `*`       | Sentry                       |                                 |
+|                                  | `*`       | Graphite & Graphana `TDPOC`  |                                 |
+|                                  | `*`       | Google analytics             |                                 |
+| Perofmance testing               | `**`      | Locust `TDPOC`               |                                 |
 
 ## Best practices
 
@@ -169,14 +170,14 @@ Notation:
 |                     | `?`   | Performance measurements during integration tests           |                                                           |
 | CD                  | `***` | Keep track of deployed envs automatically                   | `GitLab CI environments`                                  |
 |                     | `*`   | Pre-deploy dependency checks                                | custom mechanism                                          |
-|                     | `***` | After-deploy version checks                                 | custom /version endpoints / `TODO` add snippet            |
+|                     | `***` | After-deploy version checks `TD`                            | custom version endpoints                                  |
 |                     | `**`  | Auto-scaling                                                | `kubernetes`                                              |
 |                     | `**`  | Rolling updates and avoided downtime                        | `kubernetes`                                              |
 |                     | `**`  | Liveness, readyness checks and auto-recovery                | `kubernetes`                                              |
 | Monitoring          | `*`   | User usage metrics                                          | `google-analytics`                                        |
 |                     | `***` | Server performance & alerts                                 | `new relic`                                               |
 |                     | `**`  | Aggregated logs                                             | `graylog`                                                 |
-|                     | `*`   | Custom metrics                                              | `grafana` / `TODO` add POC                                |
+|                     | `*`   | Custom metrics `TDPOC`                                      | `grafana`                                                 |
 |                     | `*`   | Incident tracker                                            | `sentry`                                                  |
 |                     | `?`   | Health/smoke tests with selenium in production              | `robot-framework with selenium2`                          |
 | **APP DESIGN**      |       |                                                             |                                                           |
@@ -201,7 +202,7 @@ Notation:
 | User experience     | `**`  | Avoid heavily used sessions                                 |                                                           |
 |                     | `*`   | (If session used heavily) Session expiration handling       |                                                           |
 |                     | `**`  | Everything / many things should be accessible via url       |                                                           |
-|                     | `**`  | Consistant form validation mechanism                        | `TODO`                                                    |
+|                     | `**`  | Consistant form validation mechanism `TD`                   |                                                           |
 |                     | `**`  | Consistant ajax loader mechanism                            |                                                           |
 | **DEV PROCESS**     |       |                                                             |                                                           |
 | Project-kickoff     | `***` | Define git-process                                          |                                                           |
@@ -226,4 +227,4 @@ Notation:
 |                     | `**`  | (When needed) Performance testing in beta                   |                                                           |
 |                     | `***` | (When needed) Security audit                                |                                                           |
 | **DOCUMENTATION**   |       |                                                             |                                                           |
-|                     |       |                                                             | `TODO`                                                    |
+|                     |       | `TD`                                                        |                                                           |
