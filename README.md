@@ -147,84 +147,85 @@ Notation:
 - `*` I have not used it and also have doubts if it is for every situation
 - `?` Just an untested idea
 
-| Category            | Level | Practice                                                    | Notes / Tools used                                        |
-| :------------------ | :---- | :---------------------------------------------------------- | :-------------------------------------------------------- |
-| **ENVS & CI/CD**    |       |                                                             |                                                           |
-| Local env           | `***` | One line command to start the project                       | `docker-compose`, `make`                                  |
-|                     | `***` | Makefiles to manage package installs                        | `make`                                                    |
-|                     | `**`  | Prod-like dev env                                           | `docker`                                                  |
-|                     | `**`  | Convenient way to reload                                    | `webpack hot-reload`                                      |
-|                     | `**`  | Convenient way to debug                                     | Pycharm, VS code in-line debugger, source-maps            |
-| CI & local env      | `***` | Unit tests                                                  | `jest`, `pytest`                                          |
-|                     | `***` | Enforced code style - linters                               | `eslint`, `flake8`                                        |
-|                     | `***` | Enforced code style - formatters                            | `prettier`, `black`                                       |
-|                     | `**`  | Enforced code complexity limit                              | `flake8` with `max-complexity` param                      |
-|                     | `***` | Enforced unit test coverage percentage                      | `pytest-cov` with `fail_under` param                      |
-|                     | `***` | Static security checks                                      | `npm audit`, `snyk`, `bandit`                             |
-| CI                  | `***` | CI runs not only on commit, but also nightly                |                                                           |
-|                     | `*`   | Dynamic security tests                                      | `OWASP ZAP`                                               |
-|                     | `*`   | Integration tests                                           | `robot-framework with selenium2`                          |
-|                     | `***` | Prealpha environment for smoke testing before alpha         |                                                           |
-|                     | `?`   | Automated memory leak checks                                | Experiments: [memory-leaks](poc/mem-leaks/Readme.md)      |
-|                     | `?`   | Ensuring clean error log during integration tests           |                                                           |
-|                     | `?`   | Performance measurements during integration tests           |                                                           |
-| CD                  | `***` | Keep track of deployed envs automatically                   | `GitLab CI environments`                                  |
-|                     | `*`   | Pre-deploy dependency checks                                | custom mechanism                                          |
-|                     | `***` | After-deploy version checks `TD`                            | custom version endpoints                                  |
-|                     | `**`  | Auto-scaling                                                | `kubernetes`                                              |
-|                     | `**`  | Rolling updates and avoided downtime                        | `kubernetes`                                              |
-|                     | `**`  | Liveness, readyness checks and auto-recovery                | `kubernetes`                                              |
-| Monitoring          | `*`   | User usage metrics                                          | `google-analytics`                                        |
-|                     | `***` | Server performance & alerts                                 | `new relic`                                               |
-|                     | `**`  | Aggregated logs                                             | `graylog`                                                 |
-|                     | `*`   | Custom metrics `TDPOC`                                      | `grafana`                                                 |
-|                     | `*`   | Incident tracker                                            | `sentry`                                                  |
-|                     | `?`   | Health/smoke tests with selenium in production              | `robot-framework with selenium2`                          |
-| **APP DESIGN**      |       |                                                             |                                                           |
-| Any kind of apps    | `***` | Extensive logging                                           | Notes: [logging](notes/app-design/logging.md)             |
-|                     | `***` | Special endpoints (version, liveness & readyness)           | Notes: [endpoints](notes/app-design/endpoints.md)         |
-|                     | `***` | Stateless web app - external session and cache              | `redis`                                                   |
-|                     | `***` | Framework / abstract class to enforce dev consistancy       |                                                           |
-|                     | `***` | Mechanism to handle localizations properly                  | Notes: [localizations](notes/app-design/localizations.md) |
-|                     | `**`  | (If needed) Consistant way to access various contexts       | Notes: [contexts](notes/app-design/contexts.md)           |
-|                     | `**`  | (If needed) Feature switches (possibly for some users only) |                                                           |
-| Single page apps    | `*`   | Collect frontend logs to server                             |                                                           |
-|                     | `**`  | Keep permission & workflow logic in one place (backend)     |                                                           |
-| API                 | `**`  | Documentation + callable client                             | `OpenAPI (swagger)`                                       |
-|                     | `**`  | Strong input validation and clear messages                  |                                                           |
-| Library development | `**`  | Semantic versioning                                         |                                                           |
-|                     | `*`   | Strong typing language or lang features                     | Python3 type hints + `mypy`                               |
-|                     | `**`  | Change log / release notes                                  |                                                           |
-|                     | `**`  | Upgrade example / instructions for breaking changes         |                                                           |
-| DB design           | `*`   | Schema control even if no-sql does not enforce it           |                                                           |
-|                     | `*`   | Change scripts should go with migrations + rollback script  |                                                           |
-|                     | `*`   | Immutability or at least full audit of changes              | `event-sourcing`, or at least `temporal tables`           |
-| User experience     | `**`  | Avoid heavily used sessions                                 |                                                           |
-|                     | `*`   | (If session used heavily) Session expiration handling       |                                                           |
-|                     | `**`  | Everything / many things should be accessible via url       |                                                           |
-|                     | `**`  | Consistant form validation mechanism `TD`                   |                                                           |
-|                     | `**`  | Consistant ajax loader mechanism                            |                                                           |
-| **DEV PROCESS**     |       |                                                             |                                                           |
-| Project-kickoff     | `***` | Define git-process                                          |                                                           |
-|                     | `***` | Task workflow (states)                                      |                                                           |
-|                     | `***` | Define definition of done                                   | Notes: [dod](notes/process/dod.md)                        |
-| Daily development   | `***` | Commenting task merge request to the ticket                 | `GitLab` merge requests                                   |
-|                     | `***` | Peer review is performed before merging                     | `GitLab` merge requests                                   |
-|                     | `***` | Daily group review for knowledge sharing                    | Notes: [group-review](notes/process/group-review.md)      |
-|                     | `**`  | Daily scrum                                                 |                                                           |
-|                     | `**`  | Continous delivery to alpha                                 |                                                           |
-|                     | `**`  | Marking external dependencies                               | In ticket and/or in code                                  |
-|                     | `*`   | Tests for new functionality and for new bugs found          |                                                           |
-| Once in sprint      | `***` | Sprint review (overview, demo, feedback)                    |                                                           |
-|                     | `***` | Sprint planning (goals, schedule, versions, tickets)        |                                                           |
-|                     | `**`  | Backlog grooming and estimating                             |                                                           |
-|                     | `***` | Retrospective                                               | Notes: [retro](notes/process/retro.md)                    |
-| Before releases     | `***` | Arrange deployment freeze and regression testing in alpha   |                                                           |
-|                     | `***` | Collect approvals (CAB)                                     |                                                           |
-|                     | `***` | Release notes                                               | Notes: [release-notes](notes/process/release-notes.md)    |
-|                     | `***` | (When needed) Deployment plan and it's approvals            |                                                           |
-|                     | `***` | (When needed) Technical documentation updates               |                                                           |
-|                     | `**`  | (When needed) Performance testing in beta                   |                                                           |
-|                     | `***` | (When needed) Security audit                                |                                                           |
-| **DOCUMENTATION**   |       |                                                             |                                                           |
-|                     |       | `TD`                                                        |                                                           |
+| Category            | Level | Practice (tools used)                                            | Notes / Tools used                                        |
+| :------------------ | :---- | :--------------------------------------------------------------- | :-------------------------------------------------------- |
+| **ENVS & CI/CD**    |       |                                                                  |                                                           |
+| Local env           | `***` | One line command to start the project (`docker-compose`, `make`) |                                                           |
+|                     | `***` | Makefiles to manage package installs (`make`)                    |                                                           |
+|                     | `**`  | Prod-like dev env (`docker`)                                     |                                                           |
+|                     | `**`  | Convenient way to reload (`webpack hot-reload`)                  |                                                           |
+|                     | `**`  | Convenient way to debug (IDE in-line debugger, source-maps)      |                                                           |
+| CI & local env      | `***` | Unit tests ( `jest`, `pytest` )                                  |                                                           |
+|                     | `***` | Enforced code style - linters (`eslint`, `flake8` )              |                                                           |
+|                     | `***` | Enforced code style - formatters (`prettier`, `black`)           |                                                           |
+|                     | `**`  | Contolled code complexity `flake8` with param `max-complexity`   |                                                           |
+|                     | `***` | Enforced test coverage (`pytest-cov` with param `fail_under`)    |                                                           |
+|                     | `***` | Static security checks (`npm audit`, `snyk`, `bandit`)           |                                                           |
+| CI                  | `***` | CI runs not only on commit, but also nightly                     |                                                           |
+|                     | `*`   | Dynamic security tests (`OWASP ZAP`)                             |                                                           |
+|                     | `***` | Integration tests (`robot-framework with selenium2`)             |                                                           |
+|                     | `***` | Prealpha environment for smoke testing before alpha              |                                                           |
+|                     | `?`   | Automated memory leak checks                                     | Experiments: [memory-leaks](poc/mem-leaks/Readme.md)      |
+|                     | `?`   | Ensuring clean error log during integration tests                |                                                           |
+|                     | `?`   | Performance measurements during integration tests                |                                                           |
+| CD                  | `***` | Keep track of deployed envs automatically (`GitLab CI` envs)     |                                                           |
+|                     | `*`   | Pre-deploy dependency checks                                     |                                                           |
+|                     | `***` | After-deploy version checks `TD`                                 |                                                           |
+|                     | `**`  | Auto-scaling (`kubernetes`)                                      |                                                           |
+|                     | `**`  | Rolling updates and avoided downtime (`kubernetes`)              |                                                           |
+|                     | `**`  | Liveness, readyness checks and auto-recovery (`kubernetes`)      |                                                           |
+| Monitoring          | `*`   | User usage metrics (`google-analytics`)                          |                                                           |
+|                     | `***` | Server performance & alerts (`new relic`)                        |                                                           |
+|                     | `**`  | Aggregated logs (`graylog`)                                      |                                                           |
+|                     | `*`   | Custom metrics (`grafana`) `TDPOC`                               |                                                           |
+|                     | `*`   | Incident tracker (`sentry`)                                      |                                                           |
+|                     | `?`   | Health/smoke tests with selenium in production                   |                                                           |
+| **APP DESIGN**      |       |                                                                  |                                                           |
+| Any kind of apps    | `***` | Extensive logging                                                | Notes: [logging](notes/app-design/logging.md)             |
+|                     | `***` | Special endpoints (version, liveness & readyness)                | Notes: [endpoints](notes/app-design/endpoints.md)         |
+|                     | `***` | Stateless web app - external session and cache (`redis`)         |                                                           |
+|                     | `***` | Framework / abstract class to enforce dev consistancy            |                                                           |
+|                     | `***` | Mechanism to handle localizations properly                       | Notes: [localizations](notes/app-design/localizations.md) |
+|                     | `**`  | (If needed) Consistant way to access various contexts            | Notes: [contexts](notes/app-design/contexts.md)           |
+|                     | `**`  | (If needed) Feature switches (possibly for some users only)      |                                                           |
+| Single page apps    | `*`   | Collect frontend logs to server                                  |                                                           |
+|                     | `**`  | Keep permission & workflow logic in one place (backend)          |                                                           |
+| API                 | `**`  | Documentation + callable client (`OpenAPI (swagger)`)            |                                                           |
+|                     | `**`  | Strong input validation and clear messages                       |                                                           |
+| Library development | `**`  | Semantic versioning                                              |                                                           |
+|                     | `*`   | Strong typing language/features (Python3 type hints + `mypy`)    |                                                           |
+|                     | `**`  | Change log / release notes                                       |                                                           |
+|                     | `**`  | Upgrade example / instructions for breaking changes              |                                                           |
+| DB design           | `*`   | Schema control even if no-sql does not enforce it                |                                                           |
+|                     | `*`   | Change scripts should go with migrations + rollback script       |                                                           |
+|                     | `*`   | Immutability (`event-sourcing`) or at least full audit           |                                                           |
+|                     | `*`   | Full audit (`temporal tables`) if not immutability               |                                                           |
+| User experience     | `**`  | Avoid heavily used sessions                                      |                                                           |
+|                     | `*`   | (If session used heavily) Session expiration handling            |                                                           |
+|                     | `**`  | Everything / many things should be accessible via url            |                                                           |
+|                     | `**`  | Consistant form validation mechanism `TD`                        |                                                           |
+|                     | `**`  | Consistant ajax loader mechanism                                 |                                                           |
+| **DEV PROCESS**     |       |                                                                  |                                                           |
+| Project-kickoff     | `***` | Define git-process                                               |                                                           |
+|                     | `***` | Task workflow (states)                                           |                                                           |
+|                     | `***` | Define definition of done                                        | Notes: [dod](notes/process/dod.md)                        |
+| Daily development   | `***` | Commenting task merge request to the ticket (`GitLab` MRs)       |                                                           |
+|                     | `***` | Peer review is performed before merging (`GitLab` MRs)           |                                                           |
+|                     | `***` | Daily group review for knowledge sharing                         | Notes: [group-review](notes/process/group-review.md)      |
+|                     | `**`  | Daily scrum                                                      |                                                           |
+|                     | `**`  | Continous delivery to alpha                                      |                                                           |
+|                     | `**`  | Marking external dependencies - in ticket and/or in code         |                                                           |
+|                     | `*`   | Tests for new functionality and for new bugs found               |                                                           |
+| Once in sprint      | `***` | Sprint review (overview, demo, feedback)                         |                                                           |
+|                     | `***` | Sprint planning (goals, schedule, versions, tickets)             |                                                           |
+|                     | `**`  | Backlog grooming and estimating                                  |                                                           |
+|                     | `***` | Retrospective                                                    | Notes: [retro](notes/process/retro.md)                    |
+| Before releases     | `***` | Arrange deployment freeze and regression testing in alpha        |                                                           |
+|                     | `***` | Collect approvals (CAB)                                          |                                                           |
+|                     | `***` | Release notes                                                    | Notes: [release-notes](notes/process/release-notes.md)    |
+|                     | `***` | (When needed) Deployment plan and it's approvals                 |                                                           |
+|                     | `***` | (When needed) Technical documentation updates                    |                                                           |
+|                     | `**`  | (When needed) Performance testing in beta                        |                                                           |
+|                     | `***` | (When needed) Security audit                                     |                                                           |
+| **DOCUMENTATION**   |       |                                                                  |                                                           |
+|                     |       | `TD`                                                             |                                                           |
