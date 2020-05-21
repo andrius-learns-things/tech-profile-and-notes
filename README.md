@@ -165,7 +165,7 @@ Notation:
 |                     | `*`   | Dynamic security tests (`OWASP ZAP`)                             |                                                           |
 |                     | `***` | Integration tests (`robot-framework with selenium2`)             |                                                           |
 |                     | `***` | Prealpha environment for smoke testing before alpha              |                                                           |
-|                     | `?`   | Automated memory leak checks                                     | Experiments: [memory-leaks](poc/mem-leaks/Readme.md)      |
+|                     | `?`   | Automated memory leak checks                                     | Experiments: [memory-leaks](poc/mem-leaks)                |
 |                     | `?`   | Ensuring clean error log during integration tests                |                                                           |
 |                     | `?`   | Performance measurements during integration tests                |                                                           |
 | CD                  | `***` | Keep track of deployed envs automatically (`GitLab CI` envs)     |                                                           |
