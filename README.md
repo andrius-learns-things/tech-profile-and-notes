@@ -95,6 +95,7 @@ Notation:
 |                                  | `**`      | Bower + Grunt/Gulp           |                                                  |
 |                                  | `**`      | NPM                          |                                                  |
 |                                  | `*` `P2`  | Yarn                         |                                                  |
+| Static site generators           | `*`       | NextJS                       | Starter template: [nextjs](poc/nextjs)           |
 | **BACKEND DEVELOPMENT (PYTHON)** |           |                              |                                                  |
 | Langauge                         | `***`     | Python                       |                                                  |
 | App frameworks                   | `***`     | Bottle                       |                                                  |
