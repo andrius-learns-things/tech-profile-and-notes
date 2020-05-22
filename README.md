@@ -83,7 +83,7 @@ Notation:
 | :------------------------------- | :-------- | :--------------------------- | :----------------------------------------------- |
 | **FRONTEND DEVELOPMENT**         |           |                              |                                                  |
 | Styling                          | `**`      | HTML+CSS/SASS                |                                                  |
-|                                  | `**`      | Bootstrap                    |                                                  |
+|                                  | `**`      | Bootstrap                    | Experiments: [bootstrap](poc/bootstrap)          |
 | Languages                        | `***`     | Javascript (ES6)             |                                                  |
 |                                  | `**`      | Typescript                   |                                                  |
 | App frameworks                   | `***`     | React + Flux/Redux           |                                                  |
