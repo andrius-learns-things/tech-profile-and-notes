@@ -125,8 +125,8 @@ Notation:
 | **DEVOPS**                       |           |                              |                                                  |
 | Tools                            | `**`      | Docker & docker-compose      | Notes: [docker](notes/docker.md)                 |
 |                                  | `P1`      | Helm                         |                                                  |
-|                                  | `**`      | Kubernetes                   |                                                  |
-|                                  | `**`      | Bash                         |                                                  |
+|                                  | `**`      | Kubernetes                   | Notes: [kubectl](notes/kubectl.md)               |
+|                                  | `**`      | Bash                         | Notes: [bash](notes/bash.md)                     |
 | CI/CD systems                    | `***`     | GitLab CI                    |                                                  |
 |                                  | `**`      | Jenkins                      |                                                  |
 |                                  | `*`       | Travis CI                    |                                                  |
