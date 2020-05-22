@@ -229,3 +229,13 @@ Notation:
 |                     | `***` | (When needed) Security audit                                     |                                                           |
 | **DOCUMENTATION**   |       |                                                                  |                                                           |
 |                     |       | `TD`                                                             |                                                           |
+
+Ideas:
+
+- From Experiments 1-11
+- From full stack (divide? or maybe not?)
+- I would like to have Event sourcing here...
+- I would like to have VueJS here...
+- From older KBs...
+- OOP/Functional programming/Design pattern experiments?
+- Documentation?
