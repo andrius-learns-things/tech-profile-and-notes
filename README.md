@@ -110,7 +110,7 @@ Notation:
 | Queue                            | `*`       | pika + RabbitMQ `TDPOC`      |                                                  |
 | Web server setup                 | `**`      | nginx + uwsgi                | Starter template: [uwsgi-nginx](poc/uwsgi-nginx) |
 | **BACKEND DEVELOPMENT (.NET)**   |           |                              |                                                  |
-| ...                              |           | ...                          |                                                  |
+| ...                              |           | ... `TD`                     | Notes: [dotnetcore](notes/dotnetcore.md)         |
 | **DATABASES**                    |           |                              |                                                  |
 | Relational                       | `*`       | PostgreSQL `TDPOC`           |                                                  |
 |                                  | `*`       | MySQL                        |                                                  |
@@ -120,7 +120,7 @@ Notation:
 | Search engines                   | `*`       | Elastic search               |                                                  |
 | **DEVELOPMENT (OTHER)**          |           |                              |                                                  |
 | Version control                  | `**`      | Git                          | Notes: [git](notes/git.md)                       |
-| Selenium tests                   | `**`      | Robot framework `TDPOC`      |                                                  |
+| Selenium tests                   | `**`      | Robot framework              | Starter template: [robots](poc/robots)           |
 | Authentication                   | `**`      | OAuth, JWT `TDPOC`           |                                                  |
 | **DEVOPS**                       |           |                              |                                                  |
 | Tools                            | `**`      | Docker & docker-compose      | Notes: [docker](notes/docker.md)                 |
@@ -162,7 +162,7 @@ Notation:
 |                     | `***` | Static security checks (`npm audit`, `snyk`, `bandit`)           |                                                           |
 | CI                  | `***` | CI runs not only on commit, but also nightly                     |                                                           |
 |                     | `*`   | Dynamic security tests (`OWASP ZAP`)                             |                                                           |
-|                     | `***` | Integration tests (`robot-framework with selenium2`)             |                                                           |
+|                     | `***` | Integration tests (`robot-framework with selenium2`)             | Starter template: [robots](poc/robots)                    |
 |                     | `***` | Prealpha environment for smoke testing before alpha              |                                                           |
 |                     | `?`   | Automated memory leak checks                                     | Experiments: [memory-leaks](poc/mem-leaks)                |
 |                     | `?`   | Ensuring clean error log during integration tests                |                                                           |

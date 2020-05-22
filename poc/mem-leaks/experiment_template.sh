@@ -28,6 +28,8 @@ sleep $EXPERIMENT_WAIT_SECONDS
 
 # CHECK RESULTS
 
+mkdir -p output
+
 docker-compose logs locust | tail -n 6 > output/locust_results.txt
 
 docker-compose ps -q web | xargs docker stats --no-stream > output/web_server_stats.txt
