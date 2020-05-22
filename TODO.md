@@ -19,3 +19,5 @@
 `openssl enc -md md5 -aes-256-cbc -in secrets.yml -out secrets.yml.crypt -e -base64`
 
 `host somedomain`
+
+...
