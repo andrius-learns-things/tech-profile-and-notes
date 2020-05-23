@@ -177,7 +177,7 @@ Notation:
 | Monitoring          | `*`   | User usage metrics (`google-analytics`)                          |                                                           |
 |                     | `***` | Server performance & alerts (`new relic`)                        |                                                           |
 |                     | `**`  | Aggregated logs (`graylog`)                                      |                                                           |
-|                     | `*`   | Custom metrics (`grafana`) `TDPOC`                               |                                                           |
+|                     | `*`   | Custom metrics (`grafana`)                                       | Starter template: [grafana](poc/grafana)                  |
 |                     | `*`   | Incident tracker (`sentry`)                                      |                                                           |
 |                     | `?`   | Health/smoke tests with selenium in production                   |                                                           |
 | **APP DESIGN**      |       |                                                                  |                                                           |
@@ -190,7 +190,7 @@ Notation:
 |                     | `**`  | (If needed) Feature switches (possibly for some users only)      |                                                           |
 | Single page apps    | `*`   | Collect frontend logs to server                                  |                                                           |
 |                     | `**`  | Keep permission & workflow logic in one place (backend)          |                                                           |
-| API                 | `**`  | Documentation + callable client (`OpenAPI (swagger)`)            |                                                           |
+| API                 | `**`  | Documentation + callable client (`OpenAPI (swagger)`)            | Starter templates: [swagger](poc/swagger)                 |
 |                     | `**`  | Strong input validation and clear messages                       |                                                           |
 | Library development | `**`  | Semantic versioning                                              |                                                           |
 |                     | `*`   | Strong typing language/features (Python3 type hints + `mypy`)    |                                                           |
