@@ -2,15 +2,11 @@
 
 I am a software developer based in Vilnius, Lithuania. I am working in software development since 2005.
 
-This page is a summary of what technologies and practices I am familiar with and my notes in various form: cheatsheets, bookmarks, project-starter-templates, proof-of-concepts, etc.
+This is a summary of what technologies and practices I am familiar with and my technical notes.
 
 ## Roles
 
-These are the roles I worked in. Some of them overlap in time, as I have been covering several roles in parallel in recent years.
-
-**2016-2020**
-
-Tech lead:
+Tech lead (2016-2020):
 
 - Performing daily code reviews
 - Tech discussions with architects and other teams
@@ -18,66 +14,38 @@ Tech lead:
 - Holding career meetings & job interviews
 - Introducing and supporting new team memebers
 
-Devops:
+Devops (2016-2020):
 
 - CI/CD setup
 - Performance testing and tuning
 - Preparing deployment plans, performing deployments
 - Setting up new environments in cooperation with ops.
 
-**2014-2020**
-
-Senior developer:
+Senior developer (2014-2020):
 
 - Building systems from scratch
 - Rewriting systems
 - Refactoring major parts
 
-Scrum master / technical project manager:
+Scrum master / technical project manager (2014-2020):
 
-- Setting and documenting the development process:
-  - Git process
-  - Jira workflow
-  - Sprint goals and other measurements
-  - Retrospective notes and tracking improvements
-- Arranging and holding scrum meetings:
-  - weekly/bi-weekly sprint planning calls (review, demo, planning, retrospective)
-  - backlog grooming sessions
-  - daily devs discussions & daily scrum
-- Plan preparation with service owners and product owners (goals, schedule, versions, tickets):
+- Setting and documenting the development process (git process, jira workflow, sprint goals, measurements, retro notes)
+- Arranging and holding scrum meetings (weekly/bi-weekly sprint planning calls - review, demo, planning, retrospective, backlog grooming sessions, daily devs discussions & daily scrum)
+- Plan preparation with service owners and product owners (goals, schedule, versions, tickets)
 - Performing feature demonstrations, other presentations
 - Making sure there is always clear work and priorities for everyone in the team
 
-**2005-2014**
-
-Developer:
+Developer (2005-2014):
 
 - Doing development tasks
 - Participating in system design discussions with team
 
-**2005-2007**
-
-System analyst:
+System analyst (2005-2007):
 
 - Discussing & collecting requirements with clients
 - Documenting requirements
 
 ## Technologies
-
-In short:
-
-- 2016-2020 React + python single page app development
-- 2005-2016 ASP.NET + SQL Server app development
-- Studied and experimented with a lot more
-
-Notation:
-
-- `***` I know it well, no additional studying would be needed (studied in detail / used in real projects recently)
-- `**` Some studying/refreshing may be needed (studied it / used in real projects a while ago)
-- `*` Studying would be needed (I know _why_ and _when_ it should be used, but not much about the details of _how_)
-- `PN` TODO to study more with prio N
-- `TD` TODO to add notes
-- `TDPOC` TODO to add Proof-Of-Concept
 
 | Category                         | Level     | Technology                   | Notes / starter-templates / experiments  |
 | :------------------------------- | :-------- | :--------------------------- | :--------------------------------------- |
@@ -138,14 +106,16 @@ Notation:
 |                                  | `*`       | Google analytics             |                                          |
 | Perofmance testing               | `**`      | Locust                       | POC: [perf-tests](poc/perf-tests)        |
 
-## Best practices
-
 Notation:
 
-- `***` I have used it and would use in next projects
-- `**` I have not used it, but willing to try in next projects
-- `*` I have not used it and also have doubts if it is for every situation
-- `?` Just an untested idea
+- `***` I know it well, no additional studying would be needed (studied in detail / used in real projects recently)
+- `**` Some studying/refreshing may be needed (studied it / used in real projects a while ago)
+- `*` Studying would be needed (I know _why_ and _when_ it should be used, but not much about the details of _how_)
+- `PN` TODO to study more with prio N
+- `TD` TODO to add notes
+- `TDPOC` TODO to add Proof-Of-Concept
+
+## Best practices
 
 | Category            | Level | Practice (tools used)                                            | Notes / Proofs Of Concept (POC)                           |
 | :------------------ | :---- | :--------------------------------------------------------------- | :-------------------------------------------------------- |
@@ -230,7 +200,14 @@ Notation:
 | **DOCUMENTATION**   |       |                                                                  |                                                           |
 |                     |       | `TD`                                                             |                                                           |
 
-Ideas:
+Notation:
+
+- `***` I have used it and would use in next projects
+- `**` I have not used it, but willing to try in next projects
+- `*` I have not used it and also have doubts if it is for every situation
+- `?` Just an untested idea
+
+## Ideas how to expand this page:
 
 - From Experiments 1-11
 - From full stack (divide? or maybe not?)
