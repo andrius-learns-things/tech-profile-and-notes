@@ -81,11 +81,11 @@ System analyst (2005-2007):
 | **BACKEND DEVELOPMENT (.NET)**   |           |                              |                                          |
 | ...                              |           | ... `TD`                     | Notes: [dotnetcore](notes/dotnetcore.md) |
 | **DATABASES**                    |           |                              |                                          |
-| Relational                       | `*`       | PostgreSQL `TDPOC`           |                                          |
+| Relational                       | `*`       | PostgreSQL                   | POC: [3dbs](poc/3dbs)                    |
 |                                  | `*`       | MySQL                        |                                          |
 |                                  | `**`      | MS SQL Server                |                                          |
-| NoSQL                            | `**`      | Redis `TDPOC`                |                                          |
-|                                  | `*`       | MongoDB `TDPOC`              |                                          |
+| NoSQL                            | `**`      | Redis                        | POC: [3dbs](poc/3dbs)                    |
+|                                  | `*`       | MongoDB                      | POC: [3dbs](poc/3dbs)                    |
 | Search engines                   | `*`       | Elastic search               |                                          |
 | **DEVELOPMENT (OTHER)**          |           |                              |                                          |
 | Version control                  | `**`      | Git                          | Notes: [git](notes/git.md)               |
@@ -207,12 +207,16 @@ Notation:
 - `*` I have not used it and also have doubts if it is for every situation
 - `?` Just an untested idea
 
-## Ideas how to expand this page:
+## META: Ideas how to expand this page:
 
-- From Experiments 1-11
+- 3dbs needs fixing
 - From full stack (divide? or maybe not?)
+- Many TODOs here...
+- 12 factor app...
+- .NET part is empty
+- Documentation part is empty
+- Maybe it would be nice to recover and to link to my certs...
 - I would like to have Event sourcing here...
 - I would like to have VueJS here...
 - From older KBs...
 - OOP/Functional programming/Design pattern experiments?
-- Documentation?
