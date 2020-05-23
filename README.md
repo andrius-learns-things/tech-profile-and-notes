@@ -79,64 +79,64 @@ Notation:
 - `TD` TODO to add notes
 - `TDPOC` TODO to add Proof-Of-Concept
 
-| Category                         | Level     | Technology                   | Notes / starter-templates / experiments          |
-| :------------------------------- | :-------- | :--------------------------- | :----------------------------------------------- |
-| **FRONTEND DEVELOPMENT**         |           |                              |                                                  |
-| Styling                          | `**`      | HTML+CSS/SASS                |                                                  |
-|                                  | `**`      | Bootstrap                    | Experiments: [bootstrap](poc/bootstrap)          |
-| Languages                        | `***`     | Javascript (ES6)             |                                                  |
-|                                  | `**`      | Typescript                   |                                                  |
-| App frameworks                   | `***`     | React + Flux/Redux           |                                                  |
-|                                  | `**` `P1` | Vue+Vuex                     |                                                  |
-| Libraries                        | `***`     | jQuery                       |                                                  |
-|                                  | `*` `P2`  | RxJS                         |                                                  |
-| Tools                            | `**`      | Webpack                      |                                                  |
-|                                  | `**`      | ESLint                       |                                                  |
-|                                  | `**`      | Bower + Grunt/Gulp           |                                                  |
-|                                  | `**`      | NPM                          |                                                  |
-|                                  | `*` `P2`  | Yarn                         |                                                  |
-| Static site generators           | `*`       | NextJS                       | Starter template: [nextjs](poc/nextjs)           |
-| **BACKEND DEVELOPMENT (PYTHON)** |           |                              |                                                  |
-| Langauge                         | `***`     | Python                       |                                                  |
-| App frameworks                   | `***`     | Bottle                       |                                                  |
-|                                  | `**`      | Flask                        |                                                  |
-|                                  | `*`       | Django                       |                                                  |
-| ORMs & migration tools           | `**`      | SqlAlchemy + Alembic `TDPOC` |                                                  |
-|                                  | `**`      | DjangoORM `TDPOC`            |                                                  |
-| REST API                         | `*` `P1`  | FlaskRest `TDPOC`            |                                                  |
-|                                  | `*` `P1`  | Schematics                   |                                                  |
-|                                  | `*`       | DjangoREST `TDPOC`           |                                                  |
-| GraphQL API                      | `*`       | Graphene                     |                                                  |
-| Async tasks                      | `*`       | Celery + RabbitMQ `TDPOC`    |                                                  |
-| Queue                            | `*`       | pika + RabbitMQ `TDPOC`      |                                                  |
-| Web server setup                 | `**`      | nginx + uwsgi                | Starter template: [uwsgi-nginx](poc/uwsgi-nginx) |
-| **BACKEND DEVELOPMENT (.NET)**   |           |                              |                                                  |
-| ...                              |           | ... `TD`                     | Notes: [dotnetcore](notes/dotnetcore.md)         |
-| **DATABASES**                    |           |                              |                                                  |
-| Relational                       | `*`       | PostgreSQL `TDPOC`           |                                                  |
-|                                  | `*`       | MySQL                        |                                                  |
-|                                  | `**`      | MS SQL Server                |                                                  |
-| NoSQL                            | `**`      | Redis `TDPOC`                |                                                  |
-|                                  | `*`       | MongoDB `TDPOC`              |                                                  |
-| Search engines                   | `*`       | Elastic search               |                                                  |
-| **DEVELOPMENT (OTHER)**          |           |                              |                                                  |
-| Version control                  | `**`      | Git                          | Notes: [git](notes/git.md)                       |
-| Selenium tests                   | `**`      | Robot framework              | Starter template: [robots](poc/robots)           |
-| Authentication                   | `**`      | OAuth, JWT `TDPOC`           |                                                  |
-| **DEVOPS**                       |           |                              |                                                  |
-| Tools                            | `**`      | Docker & docker-compose      | Notes: [docker](notes/docker.md)                 |
-|                                  | `P1`      | Helm                         |                                                  |
-|                                  | `**`      | Kubernetes                   | Notes: [kubectl](notes/kubectl.md)               |
-|                                  | `**`      | Bash                         | Notes: [bash](notes/bash.md)                     |
-| CI/CD systems                    | `***`     | GitLab CI                    |                                                  |
-|                                  | `**`      | Jenkins                      |                                                  |
-|                                  | `*`       | Travis CI                    |                                                  |
-| Monitoring                       | `**`      | NewRelic                     |                                                  |
-|                                  | `**`      | Graylog                      |                                                  |
-|                                  | `*`       | Sentry                       |                                                  |
-|                                  | `*`       | Graphite & Graphana `TDPOC`  |                                                  |
-|                                  | `*`       | Google analytics             |                                                  |
-| Perofmance testing               | `**`      | Locust                       | Starter template: [perf-tests](poc/perf-tests)   |
+| Category                         | Level     | Technology                   | Notes / starter-templates / experiments  |
+| :------------------------------- | :-------- | :--------------------------- | :--------------------------------------- |
+| **FRONTEND DEVELOPMENT**         |           |                              |                                          |
+| Styling                          | `**`      | HTML+CSS/SASS                |                                          |
+|                                  | `**`      | Bootstrap                    | POC: [bootstrap](poc/bootstrap)          |
+| Languages                        | `***`     | Javascript (ES6)             |                                          |
+|                                  | `**`      | Typescript                   |                                          |
+| App frameworks                   | `***`     | React + Flux/Redux           |                                          |
+|                                  | `**` `P1` | Vue+Vuex                     |                                          |
+| Libraries                        | `***`     | jQuery                       |                                          |
+|                                  | `*` `P2`  | RxJS                         |                                          |
+| Tools                            | `**`      | Webpack                      |                                          |
+|                                  | `**`      | ESLint                       |                                          |
+|                                  | `**`      | Bower + Grunt/Gulp           |                                          |
+|                                  | `**`      | NPM                          |                                          |
+|                                  | `*` `P2`  | Yarn                         |                                          |
+| Static site generators           | `*`       | NextJS                       | POC: [nextjs](poc/nextjs)                |
+| **BACKEND DEVELOPMENT (PYTHON)** |           |                              |                                          |
+| Langauge                         | `***`     | Python                       |                                          |
+| App frameworks                   | `***`     | Bottle                       |                                          |
+|                                  | `**`      | Flask                        |                                          |
+|                                  | `*`       | Django                       |                                          |
+| ORMs & migration tools           | `**`      | SqlAlchemy + Alembic `TDPOC` |                                          |
+|                                  | `**`      | DjangoORM `TDPOC`            |                                          |
+| REST API                         | `*` `P1`  | FlaskRest `TDPOC`            |                                          |
+|                                  | `*` `P1`  | Schematics                   |                                          |
+|                                  | `*`       | DjangoREST `TDPOC`           |                                          |
+| GraphQL API                      | `*`       | Graphene                     |                                          |
+| Async tasks                      | `*`       | Celery + RabbitMQ `TDPOC`    |                                          |
+| Queue                            | `*`       | pika + RabbitMQ `TDPOC`      |                                          |
+| Web server setup                 | `**`      | nginx + uwsgi                | POC: [uwsgi-nginx](poc/uwsgi-nginx)      |
+| **BACKEND DEVELOPMENT (.NET)**   |           |                              |                                          |
+| ...                              |           | ... `TD`                     | Notes: [dotnetcore](notes/dotnetcore.md) |
+| **DATABASES**                    |           |                              |                                          |
+| Relational                       | `*`       | PostgreSQL `TDPOC`           |                                          |
+|                                  | `*`       | MySQL                        |                                          |
+|                                  | `**`      | MS SQL Server                |                                          |
+| NoSQL                            | `**`      | Redis `TDPOC`                |                                          |
+|                                  | `*`       | MongoDB `TDPOC`              |                                          |
+| Search engines                   | `*`       | Elastic search               |                                          |
+| **DEVELOPMENT (OTHER)**          |           |                              |                                          |
+| Version control                  | `**`      | Git                          | Notes: [git](notes/git.md)               |
+| Selenium tests                   | `**`      | Robot framework              | POC: [robots](poc/robots)                |
+| Authentication                   | `**`      | OAuth, JWT `TDPOC`           |                                          |
+| **DEVOPS**                       |           |                              |                                          |
+| Tools                            | `**`      | Docker & docker-compose      | Notes: [docker](notes/docker.md)         |
+|                                  | `P1`      | Helm                         |                                          |
+|                                  | `**`      | Kubernetes                   | Notes: [kubectl](notes/kubectl.md)       |
+|                                  | `**`      | Bash                         | Notes: [bash](notes/bash.md)             |
+| CI/CD systems                    | `***`     | GitLab CI                    |                                          |
+|                                  | `**`      | Jenkins                      |                                          |
+|                                  | `*`       | Travis CI                    |                                          |
+| Monitoring                       | `**`      | NewRelic                     |                                          |
+|                                  | `**`      | Graylog                      |                                          |
+|                                  | `*`       | Sentry                       |                                          |
+|                                  | `*`       | Graphite & Graphana `TDPOC`  |                                          |
+|                                  | `*`       | Google analytics             |                                          |
+| Perofmance testing               | `**`      | Locust                       | POC: [perf-tests](poc/perf-tests)        |
 
 ## Best practices
 
@@ -147,14 +147,14 @@ Notation:
 - `*` I have not used it and also have doubts if it is for every situation
 - `?` Just an untested idea
 
-| Category            | Level | Practice (tools used)                                            | Notes / starter-templates / experiments                   |
+| Category            | Level | Practice (tools used)                                            | Notes / Proofs Of Concept (POC)                           |
 | :------------------ | :---- | :--------------------------------------------------------------- | :-------------------------------------------------------- |
 | **ENVS & CI/CD**    |       |                                                                  |                                                           |
 | Local env           | `***` | One line command to start the project (`docker-compose`, `make`) |                                                           |
 |                     | `***` | Makefiles to manage package installs (`make`)                    |                                                           |
 |                     | `**`  | Prod-like dev env (`docker`)                                     |                                                           |
 |                     | `**`  | Convenient way to reload (`webpack hot-reload`)                  |                                                           |
-|                     | `**`  | Convenient way to debug (IDE in-line debugger, source-maps)      |                                                           |
+|                     | `**`  | Convenient way to debug (IDE in-line debugger, source-maps)      | POC: [pdb-in-docker](poc/pdb-in-docker)                   |
 | CI & local env      | `***` | Unit tests ( `jest`, `pytest` )                                  |                                                           |
 |                     | `***` | Enforced code style - linters (`eslint`, `flake8` )              |                                                           |
 |                     | `***` | Enforced code style - formatters (`prettier`, `black`)           |                                                           |
@@ -163,9 +163,9 @@ Notation:
 |                     | `***` | Static security checks (`npm audit`, `snyk`, `bandit`)           |                                                           |
 | CI                  | `***` | CI runs not only on commit, but also nightly                     |                                                           |
 |                     | `*`   | Dynamic security tests (`OWASP ZAP`)                             |                                                           |
-|                     | `***` | Integration tests (`robot-framework with selenium2`)             | Starter template: [robots](poc/robots)                    |
+|                     | `***` | Integration tests (`robot-framework with selenium2`)             | POC: [robots](poc/robots)                                 |
 |                     | `***` | Prealpha environment for smoke testing before alpha              |                                                           |
-|                     | `?`   | Automated memory leak checks                                     | Experiments: [memory-leaks](poc/mem-leaks)                |
+|                     | `?`   | Automated memory leak checks                                     | POC: [memory-leaks](poc/mem-leaks)                        |
 |                     | `?`   | Ensuring clean error log during integration tests                |                                                           |
 |                     | `?`   | Performance measurements during integration tests                |                                                           |
 | CD                  | `***` | Keep track of deployed envs automatically (`GitLab CI` envs)     |                                                           |
@@ -177,7 +177,7 @@ Notation:
 | Monitoring          | `*`   | User usage metrics (`google-analytics`)                          |                                                           |
 |                     | `***` | Server performance & alerts (`new relic`)                        |                                                           |
 |                     | `**`  | Aggregated logs (`graylog`)                                      |                                                           |
-|                     | `*`   | Custom metrics (`grafana`)                                       | Starter template: [grafana](poc/grafana)                  |
+|                     | `*`   | Custom metrics (`grafana`)                                       | POC: [grafana](poc/grafana)                               |
 |                     | `*`   | Incident tracker (`sentry`)                                      |                                                           |
 |                     | `?`   | Health/smoke tests with selenium in production                   |                                                           |
 | **APP DESIGN**      |       |                                                                  |                                                           |
@@ -190,7 +190,7 @@ Notation:
 |                     | `**`  | (If needed) Feature switches (possibly for some users only)      |                                                           |
 | Single page apps    | `*`   | Collect frontend logs to server                                  |                                                           |
 |                     | `**`  | Keep permission & workflow logic in one place (backend)          |                                                           |
-| API                 | `**`  | Documentation + callable client (`OpenAPI (swagger)`)            | Starter templates: [swagger](poc/swagger)                 |
+| API                 | `**`  | Documentation + callable client (`OpenAPI (swagger)`)            | POC: [swagger](poc/swagger)                               |
 |                     | `**`  | Strong input validation and clear messages                       |                                                           |
 | Library development | `**`  | Semantic versioning                                              |                                                           |
 |                     | `*`   | Strong typing language/features (Python3 type hints + `mypy`)    |                                                           |
@@ -225,7 +225,7 @@ Notation:
 |                     | `***` | Release notes                                                    | Notes: [release-notes](notes/process/release-notes.md)    |
 |                     | `***` | (When needed) Deployment plan and it's approvals                 |                                                           |
 |                     | `***` | (When needed) Technical documentation updates                    |                                                           |
-|                     | `**`  | (When needed) Performance testing in beta                        | Starter template: [perf-tests](poc/perf-tests)            |
+|                     | `**`  | (When needed) Performance testing in beta                        | POC: [perf-tests](poc/perf-tests)                         |
 |                     | `***` | (When needed) Security audit                                     |                                                           |
 | **DOCUMENTATION**   |       |                                                                  |                                                           |
 |                     |       | `TD`                                                             |                                                           |
