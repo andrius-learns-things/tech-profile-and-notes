@@ -211,7 +211,9 @@ Notation:
 |                  | `***` | (When needed) Technical documentation updates                |                                    |                                        |
 |                  | `**`  | (When needed) Performance testing in beta                    | [perf-tests](poc/perf-tests)       |                                        |
 |                  | `***` | (When needed) Security audit                                 |                                    |                                        |
+|                  | `**`  | Other agile best practices                                   |                                    | [Q&A: agile](q-a/agile)                |
 | Documentation    | `**`  | Technical documentation                                      |                                    | [Notes: docs](notes/docs.md)           |
+|                  | `*`   | UML                                                          |                                    | [Q&A: uml](q-a/uml)                    |
 
 Notation:
 
