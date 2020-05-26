@@ -80,11 +80,12 @@ System analyst (2005-2007):
 | Queue                | `*`   | pika + RabbitMQ     | [fullstack-1](poc/fullstack/1) |                             |
 | Web server setup     | `**`  | nginx + uwsgi       | [uwsgi-nginx](poc/uwsgi-nginx) |                             |
 | **BACKEND (.NET)**   |       |                     |                                |                             |
-| .Net Core            |       | .Net Core On Linux  |                                | [netcore](notes/netcore.md) |
+| .Net                 |       | .Net                |                                | [Q&A: .net](q-a/dotnet)     |
+|                      |       | .Net Core On Linux  |                                | [netcore](notes/netcore.md) |
 | **DATABASES**        |       |                     |                                |                             |
 | Relational           | `*`   | PostgreSQL          | [3dbs](poc/3dbs)               |                             |
 |                      | `*`   | MySQL               |                                |                             |
-|                      | `***` | MS SQL Server       |                                | [mssql](q-a/mssql)          |
+|                      | `***` | MS SQL Server       |                                | [Q&A: mssql](q-a/mssql)     |
 | NoSQL                | `**`  | Redis               | [3dbs](poc/3dbs)               |                             |
 |                      | `*`   | MongoDB             | [3dbs](poc/3dbs)               |                             |
 | Search engines       | `*`   | Elastic search      |                                |                             |
