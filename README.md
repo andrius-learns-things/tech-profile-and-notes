@@ -82,6 +82,7 @@ System analyst (2005-2007):
 | **BACKEND (.NET)**   |       |                     |                                |                             |
 | .Net                 | `**`  | .Net                |                                | [Q&A: .net](q-a/dotnet)     |
 |                      | `**`  | ASP.Net WebForms    |                                | [Q&A: asp.net wf](q-a/wf)   |
+|                      | `**`  | C#                  |                                | [Q&A: c#](q-a/csharp)       |
 |                      | `*`   | .Net Core On Linux  |                                | [netcore](notes/netcore.md) |
 | **DATABASES**        |       |                     |                                |                             |
 | Relational           | `*`   | PostgreSQL          | [3dbs](poc/3dbs)               |                             |
