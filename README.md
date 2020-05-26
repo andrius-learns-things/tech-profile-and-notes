@@ -47,64 +47,65 @@ System analyst (2005-2007):
 
 ## Technologies
 
-| Category                         | Level     | Technology                   | Notes / starter-templates / experiments  |
-| :------------------------------- | :-------- | :--------------------------- | :--------------------------------------- |
-| **FRONTEND DEVELOPMENT**         |           |                              |                                          |
-| Styling                          | `**`      | HTML+CSS/SASS                |                                          |
-|                                  | `**`      | Bootstrap                    | POC: [bootstrap](poc/bootstrap)          |
-| Languages                        | `***`     | Javascript (ES6)             |                                          |
-|                                  | `**`      | Typescript                   |                                          |
-| App frameworks                   | `***`     | React + Flux/Redux           |                                          |
-|                                  | `**` `P1` | Vue+Vuex                     |                                          |
-| Libraries                        | `***`     | jQuery                       |                                          |
-|                                  | `*` `P2`  | RxJS                         |                                          |
-| Tools                            | `**`      | Webpack                      |                                          |
-|                                  | `**`      | ESLint                       |                                          |
-|                                  | `**`      | Bower + Grunt/Gulp           |                                          |
-|                                  | `**`      | NPM                          |                                          |
-|                                  | `*` `P2`  | Yarn                         |                                          |
-| Static site generators           | `*`       | NextJS                       | POC: [nextjs](poc/nextjs)                |
-| **BACKEND DEVELOPMENT (PYTHON)** |           |                              |                                          |
-| Langauge                         | `***`     | Python                       |                                          |
-| App frameworks                   | `***`     | Bottle                       |                                          |
-|                                  | `**`      | Flask                        |                                          |
-|                                  | `*`       | Django                       |                                          |
-| ORMs & migration tools           | `**`      | SqlAlchemy + Alembic `TDPOC` |                                          |
-|                                  | `**`      | DjangoORM `TDPOC`            |                                          |
-| REST API                         | `*` `P1`  | FlaskRest `TDPOC`            |                                          |
-|                                  | `*` `P1`  | Schematics                   |                                          |
-|                                  | `*`       | DjangoREST `TDPOC`           |                                          |
-| GraphQL API                      | `*`       | Graphene                     |                                          |
-| Async tasks                      | `*`       | Celery + RabbitMQ `TDPOC`    |                                          |
-| Queue                            | `*`       | pika + RabbitMQ `TDPOC`      |                                          |
-| Web server setup                 | `**`      | nginx + uwsgi                | POC: [uwsgi-nginx](poc/uwsgi-nginx)      |
-| **BACKEND DEVELOPMENT (.NET)**   |           |                              |                                          |
-| ...                              |           | ... `TD`                     | Notes: [dotnetcore](notes/dotnetcore.md) |
-| **DATABASES**                    |           |                              |                                          |
-| Relational                       | `*`       | PostgreSQL                   | POC: [3dbs](poc/3dbs)                    |
-|                                  | `*`       | MySQL                        |                                          |
-|                                  | `**`      | MS SQL Server                |                                          |
-| NoSQL                            | `**`      | Redis                        | POC: [3dbs](poc/3dbs)                    |
-|                                  | `*`       | MongoDB                      | POC: [3dbs](poc/3dbs)                    |
-| Search engines                   | `*`       | Elastic search               |                                          |
-| **DEVELOPMENT (OTHER)**          |           |                              |                                          |
-| Version control                  | `**`      | Git                          | Notes: [git](notes/git.md)               |
-| Selenium tests                   | `**`      | Robot framework              | POC: [robots](poc/robots)                |
-| Authentication                   | `**`      | OAuth, JWT `TDPOC`           |                                          |
-| **DEVOPS**                       |           |                              |                                          |
-| Tools                            | `**`      | Docker & docker-compose      | Notes: [docker](notes/docker.md)         |
-|                                  | `P1`      | Helm                         |                                          |
-|                                  | `**`      | Kubernetes                   | Notes: [kubectl](notes/kubectl.md)       |
-|                                  | `**`      | Bash                         | Notes: [bash](notes/bash.md)             |
-| CI/CD systems                    | `***`     | GitLab CI                    |                                          |
-|                                  | `**`      | Jenkins                      |                                          |
-|                                  | `*`       | Travis CI                    |                                          |
-| Monitoring                       | `**`      | NewRelic                     |                                          |
-|                                  | `**`      | Graylog                      |                                          |
-|                                  | `*`       | Sentry                       |                                          |
-|                                  | `*`       | Graphite & Graphana `TDPOC`  |                                          |
-|                                  | `*`       | Google analytics             |                                          |
-| Perofmance testing               | `**`      | Locust                       | POC: [perf-tests](poc/perf-tests)        |
+| Category                         | Level     | Technology                  | Notes / starter-templates / experiments              |
+| :------------------------------- | :-------- | :-------------------------- | :--------------------------------------------------- |
+| **FRONTEND DEVELOPMENT**         |           |                             |                                                      |
+| Styling                          | `**`      | HTML+CSS/SASS               |                                                      |
+|                                  | `**`      | Bootstrap                   | POC: [bootstrap](poc/bootstrap)                      |
+| Languages                        | `***`     | Javascript (ES6)            | (in many POCs)                                       |
+|                                  | `**`      | Typescript                  |                                                      |
+| App frameworks                   | `***`     | React + Flux/Redux          | Part of POC: [fullstack-1](poc/fullstack/1)          |
+|                                  | `**` `P1` | Vue+Vuex                    |                                                      |
+| Libraries                        | `***`     | jQuery                      |                                                      |
+|                                  | `*` `P2`  | RxJS                        |                                                      |
+| Tools                            | `**`      | Webpack                     | Part of POC: [fullstack-1](poc/fullstack/1)          |
+|                                  | `**`      | ESLint                      |                                                      |
+|                                  | `**`      | Bower + Grunt/Gulp          |                                                      |
+|                                  | `**`      | NPM                         |                                                      |
+|                                  | `*`       | Yarn                        |                                                      |
+| Static site generators           | `*`       | NextJS                      | POC: [nextjs](poc/nextjs)                            |
+| **BACKEND DEVELOPMENT (PYTHON)** |           |                             |                                                      |
+| Langauge                         | `***`     | Python                      | (in many POCs)                                       |
+| App frameworks                   | `***`     | Bottle                      |                                                      |
+|                                  | `**`      | Flask                       | Part of POC: [fullstack-1](poc/fullstack/1)          |
+|                                  | `*`       | Django                      |                                                      |
+| ORMs & migration tools           | `**`      | SqlAlchemy                  | Part of POC: [fullstack-1](poc/fullstack/1)          |
+|                                  | `*` `P2`  | Alembic                     |                                                      |
+|                                  | `**`      | DjangoORM `TDPOC`           |                                                      |
+| REST API                         | `*` `P2`  | FlaskRest `TDPOC`           |                                                      |
+|                                  | `*` `P2`  | Schematics                  |                                                      |
+|                                  | `*`       | DjangoREST `TDPOC`          |                                                      |
+| GraphQL API                      | `*`       | Graphene                    |                                                      |
+| Async tasks                      | `*`       | Celery + RabbitMQ           | Part of POC: [fullstack-1](poc/fullstack/1)          |
+| Queue                            | `*`       | pika + RabbitMQ             | Part of POC: [fullstack-1](poc/fullstack/1)          |
+| Web server setup                 | `**`      | nginx + uwsgi               | POC: [uwsgi-nginx](poc/uwsgi-nginx)                  |
+| **BACKEND DEVELOPMENT (.NET)**   |           |                             |                                                      |
+| ...                              |           | ... `TD`                    | Notes: [dotnetcore](notes/dotnetcore.md)             |
+| **DATABASES**                    |           |                             |                                                      |
+| Relational                       | `*`       | PostgreSQL                  | POC: [3dbs](poc/3dbs) [fullstack-1](poc/fullstack/1) |
+|                                  | `*`       | MySQL                       |                                                      |
+|                                  | `**`      | MS SQL Server               |                                                      |
+| NoSQL                            | `**`      | Redis                       | POC: [3dbs](poc/3dbs) [fullstack-1](poc/fullstack/1) |
+|                                  | `*`       | MongoDB                     | POC: [3dbs](poc/3dbs) [fullstack-1](poc/fullstack/1) |
+| Search engines                   | `*`       | Elastic search              |                                                      |
+| **DEVELOPMENT (OTHER)**          |           |                             |                                                      |
+| Version control                  | `**`      | Git                         | Notes: [git](notes/git.md)                           |
+| Selenium tests                   | `**`      | Robot framework             | POC: [robots](poc/robots)                            |
+| Authentication                   | `**`      | OAuth, JWT                  |                                                      |
+| **DEVOPS**                       |           |                             |                                                      |
+| Tools                            | `**`      | Docker & docker-compose     | (in many POCs) Notes: [docker](notes/docker.md)      |
+|                                  | `*` `P1`  | Helm                        |                                                      |
+|                                  | `**`      | Kubernetes                  | Notes: [kubectl](notes/kubectl.md)                   |
+|                                  | `**`      | Bash                        | Notes: [bash](notes/bash.md)                         |
+| CI/CD systems                    | `***`     | GitLab CI                   |                                                      |
+|                                  | `**`      | Jenkins                     |                                                      |
+|                                  | `*`       | Travis CI                   |                                                      |
+| Monitoring                       | `**`      | NewRelic                    |                                                      |
+|                                  | `**`      | Graylog                     |                                                      |
+|                                  | `*`       | Sentry                      |                                                      |
+|                                  | `*`       | Graphite & Graphana `TDPOC` |                                                      |
+|                                  | `*`       | Google analytics            |                                                      |
+| Perofmance testing               | `**`      | Locust                      | POC: [perf-tests](poc/perf-tests)                    |
 
 Notation:
 
@@ -120,15 +121,15 @@ Notation:
 | Category            | Level | Practice (tools used)                                            | Notes / Proofs Of Concept (POC)                           |
 | :------------------ | :---- | :--------------------------------------------------------------- | :-------------------------------------------------------- |
 | **ENVS & CI/CD**    |       |                                                                  |                                                           |
-| Local env           | `***` | One line command to start the project (`docker-compose`, `make`) |                                                           |
+| Local env           | `***` | One line command to start the project (`docker-compose`, `make`) | (in many POCs)                                            |
 |                     | `***` | Makefiles to manage package installs (`make`)                    |                                                           |
 |                     | `**`  | Prod-like dev env (`docker`)                                     |                                                           |
 |                     | `**`  | Convenient way to reload (`webpack hot-reload`)                  |                                                           |
 |                     | `**`  | Convenient way to debug (IDE in-line debugger, source-maps)      | POC: [pdb-in-docker](poc/pdb-in-docker)                   |
 | CI & local env      | `***` | Unit tests ( `jest`, `pytest` )                                  |                                                           |
-|                     | `***` | Enforced code style - linters (`eslint`, `flake8` )              |                                                           |
+|                     | `***` | Enforced code style - linters (`eslint`, `flake8` )              | Part of POC: [fullstack-1](poc/fullstack/1)               |
 |                     | `***` | Enforced code style - formatters (`prettier`, `black`)           |                                                           |
-|                     | `**`  | Contolled code complexity `flake8` with param `max-complexity`   |                                                           |
+|                     | `**`  | Contolled code complexity `flake8` with param `max-complexity`   | Part of POC: [fullstack-1](poc/fullstack/1)               |
 |                     | `***` | Enforced test coverage (`pytest-cov` with param `fail_under`)    |                                                           |
 |                     | `***` | Static security checks (`npm audit`, `snyk`, `bandit`)           |                                                           |
 | CI                  | `***` | CI runs not only on commit, but also nightly                     |                                                           |
@@ -168,7 +169,7 @@ Notation:
 |                     | `**`  | Upgrade example / instructions for breaking changes              |                                                           |
 | DB design           | `*`   | Schema control even if no-sql does not enforce it                |                                                           |
 |                     | `*`   | Change scripts should go with migrations + rollback script       |                                                           |
-|                     | `*`   | Immutability (`event-sourcing`) or at least full audit           |                                                           |
+|                     | `*`   | Immutability (`event-sourcing`) or at least full audit           | Part of POC: [fullstack-1](poc/fullstack/1)               |
 |                     | `*`   | Full audit (`temporal tables`) if not immutability               |                                                           |
 | User experience     | `**`  | Avoid heavily used sessions                                      |                                                           |
 |                     | `*`   | (If session used heavily) Session expiration handling            |                                                           |
