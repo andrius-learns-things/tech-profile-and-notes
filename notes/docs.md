@@ -8,7 +8,6 @@ Functionality:
 - Workflows & functions
 - Prototype
 - Tips for testing with local/alpha data
-- Release notes + upgrade instructions
 
 Architecture:
 
@@ -30,3 +29,14 @@ Other:
 - Tech debt list
 - Security audit page
 - Tips how to get unstuck on common technical problems / tech support cases
+
+Release notes:
+
+- Date & time
+- Deployer
+- Tester
+- Contents (tickets)
+- Manual testing notes & coverage
+- Pipelines (versions)
+- Deployment plan / deployment details
+- If it's a lib - upgrade instructions
