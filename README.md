@@ -56,8 +56,8 @@ System analyst (2005-2007):
 |                      | `***` | Javascript (ES6)     | (in many POCs)                 | [Q&A: es6](q-a/es6)                |
 |                      | `**`  | Typescript           |                                | [Q&A: typescript](q-a/typescript)  |
 | App frameworks       | `***` | React + Flux/Redux   | [fullstack-1](poc/fullstack/1) |                                    |
-|                      | `**`  | Vue+Vuex `P1`        |                                |                                    |
-| Libraries            | `***` | jQuery               |                                |                                    |
+|                      | `*`   | Vue+Vuex `P1`        |                                |                                    |
+| Libraries            | `**`  | jQuery               |                                |                                    |
 |                      | `*`   | RxJS                 |                                |                                    |
 | Tools                | `**`  | Webpack              | [fullstack-1](poc/fullstack/1) |                                    |
 |                      | `**`  | ESLint               |                                |                                    |
@@ -72,7 +72,7 @@ System analyst (2005-2007):
 |                      | `*`   | Django               |                                |                                    |
 | ORMs & migration     | `**`  | SqlAlchemy           | [fullstack-1](poc/fullstack/1) |                                    |
 |                      | `*`   | Alembic `P2`         |                                |                                    |
-|                      | `**`  | DjangoORM            |                                |                                    |
+|                      | `*`   | DjangoORM            |                                |                                    |
 | REST API             | `*`   | FlaskRest            |                                |                                    |
 |                      | `*`   | Schematics `P2`      |                                |                                    |
 |                      | `*`   | DjangoREST           |                                |                                    |
@@ -84,7 +84,7 @@ System analyst (2005-2007):
 | .Net                 | `**`  | .Net                 |                                | [Q&A: .net](q-a/dotnet)            |
 |                      | `**`  | C#                   |                                | [Q&A: c#](q-a/csharp)              |
 |                      | `**`  | ASP.Net WebForms     |                                | [Q&A: asp.net wf](q-a/wf)          |
-|                      | `**`  | ASP.Net MVC          |                                | [Q&A: asp.net mvc](q-a/mvc)        |
+|                      | `**`  | ASP.Net MVC          |                                | [Q&A: asp.net mvc](q-a/aspmvc)     |
 |                      | `**`  | Entity Framework ORM |                                | [Q&A: ef](q-a/ef)                  |
 |                      | `*`   | Xml                  |                                | [Q&A: xml](q-a/xml)                |
 |                      | `*`   | WCF                  |                                | [Q&A: wcf](q-a/wcf)                |
