@@ -1,4 +1,19 @@
-# Group reviews
+# Reviews
+
+## Peer-reviews
+
+Useful because:
+
+- One of primary tools of code quality
+- Can fix quickly
+- Does not cost much
+
+Ways to do it:
+
+- MR comments / other tools
+- Live in discussion
+
+## Group reviews
 
 Useful because:
 
