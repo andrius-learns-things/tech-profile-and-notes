@@ -65,7 +65,7 @@ System analyst (2005-2007):
 |                      | `*`   | Yarn                |                                |                                    |
 | Site generators      | `*`   | NextJS              | [nextjs](poc/nextjs)           |                                    |
 | **BACKEND (PYTHON)** |       |                     |                                |                                    |
-| Langauge             | `***` | Python              | (in many POCs)                 |                                    |
+| Langauge             | `***` | Python              | (in many POCs)                 | [Q&A: python](q-a/python)          |
 | App frameworks       | `***` | Bottle              |                                |                                    |
 |                      | `**`  | Flask               | [fullstack-1](poc/fullstack/1) |                                    |
 |                      | `*`   | Django              |                                |                                    |
@@ -99,6 +99,7 @@ System analyst (2005-2007):
 | Version control      | `**`  | Git                 |                                | [Notes: git](notes/git.md)         |
 | Selenium tests       | `**`  | Robot framework     | [robots](poc/robots)           |                                    |
 | Authentication       | `**`  | OAuth, JWT          |                                |                                    |
+| Regexp               | `**`  | Regexp              |                                | [Q&A: regexp](q-a/regexp)          |
 | **DEVOPS**           |       |                     |                                |                                    |
 | Tools                | `**`  | Docker              | (in many POCs)                 | [Notes: docker](notes/docker.md)   |
 |                      | `**`  | Docker-compose      | (in many POCs)                 | [Notes: docker](notes/docker.md)   |
@@ -183,6 +184,7 @@ Notation:
 |                  | `**`  | Everything / many things should be accessible via url        |                                    |                                        |
 |                  | `**`  | Consistant form validation mechanism                         |                                    |                                        |
 |                  | `**`  | Consistant ajax loader mechanism                             |                                    |                                        |
+| Design patterns  | `*`   | Design patterns                                              |                                    | [Q&A: patterns](q-a/patterns)          |
 | Security         | `*`   | Best practices in security                                   |                                    | [Q&A: security](q-a/security)          |
 | **DEV PROCESS**  |       |                                                              |                                    |                                        |
 | Project-kickoff  | `***` | Define git-process                                           |                                    |                                        |
