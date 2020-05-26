@@ -78,7 +78,7 @@ System analyst (2005-2007):
 | GraphQL API          | `*`   | Graphene            |                                |                                    |
 | Async tasks          | `*`   | Celery + RabbitMQ   | [fullstack-1](poc/fullstack/1) |                                    |
 | Queue                | `*`   | pika + RabbitMQ     | [fullstack-1](poc/fullstack/1) |                                    |
-| Web server setup     | `**`  | nginx + uwsgi       | [uwsgi-nginx](poc/uwsgi-nginx) |                                    |
+| Web server setup     | `**`  | nginx + uwsgi       | [uwsgi-nginx](poc/uwsgi-nginx) | [Q&A: rev-proxy](q-a/rev-proxy)    |
 | **BACKEND (.NET)**   |       |                     |                                |                                    |
 | .Net                 | `**`  | .Net                |                                | [Q&A: .net](q-a/dotnet)            |
 |                      | `**`  | C#                  |                                | [Q&A: c#](q-a/csharp)              |
@@ -114,6 +114,7 @@ System analyst (2005-2007):
 |                      | `*`   | Graphana & influxdb | [grafana](poc/grafana)         |                                    |
 |                      | `*`   | Google analytics    |                                |                                    |
 | Perofmance testing   | `**`  | Locust              | [perf-tests](poc/perf-tests)   |                                    |
+| Operations           | `**`  | Operations          |                                | [Q&A: ops](q-a/ops)                |
 
 Notation:
 
