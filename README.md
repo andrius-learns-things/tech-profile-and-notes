@@ -84,7 +84,7 @@ System analyst (2005-2007):
 | **DATABASES**        |       |                     |                                |                             |
 | Relational           | `*`   | PostgreSQL          | [3dbs](poc/3dbs)               |                             |
 |                      | `*`   | MySQL               |                                |                             |
-|                      | `**`  | MS SQL Server       |                                |                             |
+|                      | `**`  | MS SQL Server       |                                | [mssql](q-a/mssql)          |
 | NoSQL                | `**`  | Redis               | [3dbs](poc/3dbs)               |                             |
 |                      | `*`   | MongoDB             | [3dbs](poc/3dbs)               |                             |
 | Search engines       | `*`   | Elastic search      |                                |                             |
