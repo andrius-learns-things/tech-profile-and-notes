@@ -81,8 +81,10 @@ System analyst (2005-2007):
 | Web server setup     | `**`  | nginx + uwsgi       | [uwsgi-nginx](poc/uwsgi-nginx) |                             |
 | **BACKEND (.NET)**   |       |                     |                                |                             |
 | .Net                 | `**`  | .Net                |                                | [Q&A: .net](q-a/dotnet)     |
-|                      | `**`  | ASP.Net WebForms    |                                | [Q&A: asp.net wf](q-a/wf)   |
 |                      | `**`  | C#                  |                                | [Q&A: c#](q-a/csharp)       |
+|                      | `**`  | ASP.Net WebForms    |                                | [Q&A: asp.net wf](q-a/wf)   |
+|                      | `*`   | Xml                 |                                | [Q&A: xml](q-a/xml)         |
+|                      | `*`   | WCF                 |                                | [Q&A: wcf](q-a/wcf)         |
 |                      | `*`   | .Net Core On Linux  |                                | [netcore](notes/netcore.md) |
 | **DATABASES**        |       |                     |                                |                             |
 | Relational           | `*`   | PostgreSQL          | [3dbs](poc/3dbs)               |                             |
