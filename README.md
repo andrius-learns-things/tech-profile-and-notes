@@ -164,7 +164,8 @@ Notation:
 |                  | `*`   | Incident tracker (`sentry`)                                  |                                    |                                        |
 |                  | `?`   | Health/smoke tests with selenium in production               |                                    |                                        |
 | **APP DESIGN**   |       |                                                              |                                    |                                        |
-| Any kind of apps | `***` | Extensive logging                                            |                                    | [Notes: logging](notes/logging.md)     |
+| Any web app      | `***` | General best practices of web                                |                                    | [Q&A: web](q-a/web)                    |
+|                  | `***` | Extensive logging                                            |                                    | [Notes: logging](notes/logging.md)     |
 |                  | `***` | Special endpoints (version, liveness & readyness)            |                                    | [Notes: endpoints](notes/endpoints.md) |
 |                  | `***` | Stateless web app - external session and cache (`redis`)     |                                    |                                        |
 |                  | `***` | Framework / abstract class to enforce dev consistancy        |                                    |                                        |
