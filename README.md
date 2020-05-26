@@ -197,8 +197,7 @@ Notation:
 |                     | `***` | (When needed) Technical documentation updates                    |                                                           |
 |                     | `**`  | (When needed) Performance testing in beta                        | POC: [perf-tests](poc/perf-tests)                         |
 |                     | `***` | (When needed) Security audit                                     |                                                           |
-| **DOCUMENTATION**   |       |                                                                  |                                                           |
-|                     |       | `TD`                                                             |                                                           |
+| Documentation       | `**`  | Technical documentation                                          | Notes: [tech-docs](notes/process/tech-docs.md)            |
 
 Notation:
 
@@ -206,17 +205,3 @@ Notation:
 - `**` I have not used it, but willing to try in next projects
 - `*` I have not used it and also have doubts if it is for every situation
 - `?` Just an untested idea
-
-## META: Ideas how to expand this page:
-
-- 3dbs needs fixing
-- From full stack (divide? or maybe not?)
-- Many TODOs here...
-- 12 factor app...
-- .NET part is empty
-- Documentation part is empty
-- Maybe it would be nice to recover and to link to my certs...
-- I would like to have Event sourcing here...
-- I would like to have VueJS here...
-- From older KBs...
-- OOP/Functional programming/Design pattern experiments?
