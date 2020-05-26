@@ -50,10 +50,11 @@ System analyst (2005-2007):
 | Category             | Level | Technology           | POC (templates / experiments)  | Notes                              |
 | :------------------- | :---- | :------------------- | :----------------------------- | :--------------------------------- |
 | **FRONTEND**         |       |                      |                                |                                    |
-| Styling              | `**`  | HTML+CSS/SASS        |                                |                                    |
+| Styling              | `**`  | HTML+CSS/SASS        |                                | [Q&A: html&css](q-a/html-css)      |
 |                      | `**`  | Bootstrap            | [bootstrap](poc/bootstrap)     |                                    |
-| Languages            | `***` | Javascript (ES6)     | (in many POCs)                 |                                    |
-|                      | `**`  | Typescript           |                                |                                    |
+| Languages            | `**`  | Javascript           |                                | [Q&A: js](q-a/js)                  |
+|                      | `***` | Javascript (ES6)     | (in many POCs)                 | [Q&A: es6](q-a/es6)                |
+|                      | `**`  | Typescript           |                                | [Q&A: typescript](q-a/typescript)  |
 | App frameworks       | `***` | React + Flux/Redux   | [fullstack-1](poc/fullstack/1) |                                    |
 |                      | `**`  | Vue+Vuex `P1`        |                                |                                    |
 | Libraries            | `***` | jQuery               |                                |                                    |
