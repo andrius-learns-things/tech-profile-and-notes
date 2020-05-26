@@ -80,7 +80,7 @@ System analyst (2005-2007):
 | Queue                | `*`   | pika + RabbitMQ     | [fullstack-1](poc/fullstack/1) |                             |
 | Web server setup     | `**`  | nginx + uwsgi       | [uwsgi-nginx](poc/uwsgi-nginx) |                             |
 | **BACKEND (.NET)**   |       |                     |                                |                             |
-| ...                  |       | ... `TD`            |                                | [netcore](notes/netcore.md) |
+| .Net Core            |       | .Net Core On Linux  |                                | [netcore](notes/netcore.md) |
 | **DATABASES**        |       |                     |                                |                             |
 | Relational           | `*`   | PostgreSQL          | [3dbs](poc/3dbs)               |                             |
 |                      | `*`   | MySQL               |                                |                             |
@@ -114,7 +114,6 @@ Notation:
 - `**` Some studying/refreshing may be needed (studied it / used in real projects a while ago)
 - `*` Studying would be needed (I know _why_ and _when_ it should be used, but not much about the details of _how_)
 - `PN` TODO to study more with prio N
-- `TD` TODO to add notes
 
 ## Best practices
 
@@ -141,7 +140,7 @@ Notation:
 |                  | `?`   | Performance measurements during integration tests            |                                    |                                 |
 | CD               | `***` | Keep track of deployed envs automatically (`GitLab CI` envs) |                                    |                                 |
 |                  | `*`   | Pre-deploy dependency checks                                 |                                    |                                 |
-|                  | `***` | After-deploy version checks `TD`                             |                                    |                                 |
+|                  | `***` | After-deploy version checks                                  |                                    |                                 |
 |                  | `**`  | Auto-scaling (`kubernetes`)                                  |                                    |                                 |
 |                  | `**`  | Rolling updates and avoided downtime (`kubernetes`)          |                                    |                                 |
 |                  | `**`  | Liveness, readyness checks and auto-recovery (`kubernetes`)  |                                    |                                 |
@@ -174,7 +173,7 @@ Notation:
 | User experience  | `**`  | Avoid heavily used sessions                                  |                                    |                                 |
 |                  | `*`   | (If session used heavily) Session expiration handling        |                                    |                                 |
 |                  | `**`  | Everything / many things should be accessible via url        |                                    |                                 |
-|                  | `**`  | Consistant form validation mechanism `TD`                    |                                    |                                 |
+|                  | `**`  | Consistant form validation mechanism                         |                                    |                                 |
 |                  | `**`  | Consistant ajax loader mechanism                             |                                    |                                 |
 | **DEV PROCESS**  |       |                                                              |                                    |                                 |
 | Project-kickoff  | `***` | Define git-process                                           |                                    |                                 |
